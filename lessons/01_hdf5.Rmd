@@ -1,0 +1,31 @@
+---
+title: "HD5 in R"
+author: "Edmund Hart"
+date: "August 1, 2014"
+output:
+  html_document:
+    theme: united
+---
+  
+HDF5 is a format that allows the storage of large heterogeneous data sets with self-describing metadata.  It support compression, parallel I/O, and easy data slicing which means large files don't need to be completely read into RAM (a real benefit to `R`).  Plus it has wide support in the many programming languages, `R` included.  To be able to access HDF5 files, you'll need to first install the base [HDF5 libraries](http://www.hdfgroup.org/HDF5/release/obtain5.html#obtain).  It might also be useful to install [HDFview](http://www.hdfgroup.org/products/java/hdfview/) which will allow you to explore the contents of an HDF5 file easily.
+
+
+The package we'll be using in `rhdf` which is part of the [Bioconductor](http://www.bioconductor.org) suite of `R` packages
+```{r Installation}
+source("http://bioconductor.org/biocLite.R")
+biocLite("rhdf5")
+library("rhdf5")
+```
+
+Often we won't know what's in an HDF5 file, and we will need to explore the underlying structure.  So let's load up a file and examine it's contents.
+
+```{r load file}
+f <- "data/fiuTestFile.hdf5"
+h5ls(f)
+```
+
+Note that it returns the group, the name of a particular node (which may be a group), the type, and class, and the dimensions of the object.  In this case because the class is compound (meaning there are mixed data types), the dimensions are returned as the number of elements.
+
+
+
+
