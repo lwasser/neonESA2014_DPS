@@ -1,13 +1,14 @@
 neonESA2014
 ===========
-LEAH TEST
+
 Repository holding NEON teaching materials.
 
 Tentative schedule
 ------
-12 - 12:20 - Set-up overview of NEON and NEON data
+12:00 - 12:15 - Welcome, Introductions
+12:15 - 12:35 - Set-up overview of NEON and NEON data; Goals of the workshop
 
-12:20 - 1:30 - HDF5 formats
+12:35 - 1:30 - HDF5 formats
 * Opening and exploring HDF5
 * The theory of HDF5
 * Extracting HDF5 metadata
