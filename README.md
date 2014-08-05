@@ -3,6 +3,10 @@ neonESA2014
 
 Repository holding NEON teaching materials.
 
+Website
+------
+http://neondps.github.io/neonESA2014/
+
 Tentative schedule
 ------
 12:00 - 12:15 - Welcome, Introductions
