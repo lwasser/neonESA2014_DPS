@@ -1,0 +1,34 @@
+---
+title: "Hyperspectral imaging"
+author: "Edmund Hart"
+date: "August 6, 2014"
+output: html_document
+---
+
+Reading data
+
+```{r Reading in data}
+library(rhdf5)
+f <- '/Users/thart/ESAData_2014/Part2_Spectrometer/HDF5File/SJER_140123_chip.h5'
+h5ls(f,all=T)
+```
+
+Grab metadata
+```{r get spatial info and map info}
+mapinfo <- h5read(f,"map info",read.attributes = T)
+spinfo <- h5metadata(f,"spatialInfo",11)
+```
+
+
+Slice up bands
+```{r slicing}
+b <- h5read(f,"Reflectance",index=list(1:477,502:1,425))
+
+b1 <- band1[,,1]
+image(,,b1)
+
+b <- b1
+b[b > 14999] <- NA
+image(log(b))
+```
+
