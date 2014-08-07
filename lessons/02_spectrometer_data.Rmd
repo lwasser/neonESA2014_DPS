@@ -59,23 +59,54 @@ getBandMat <- function(f, band){
   return(out)
 }
 band2rast <- function(f,band){
-  out <-  raster(getBandMat(f,band))
+  out <-  raster(getBandMat(f,band),crs="+zone=11N +ellps=WGS84 +datum=WGS84 +proj=longlat")
   ex <- sort(unlist(spinfo[2:5]))
   e <- extent(ex)
   extent(out) <- e
   return(out)
 }
 
-rgb <- list(90,34,19)
+stackList <- function(rastList){
+  ## Creates a stack of rasters from a list of rasters
+  masterRaster <- stack(rastList[[1]])
+  for(i in 2:length(rastList)){
+    masterRaster<-  addLayer(masterRaster,rastList[[i]])
+  }
+  return(masterRaster)
+}
+
+rgb <- list(58,34,19)
 rgb_rast <- lapply(rgb,band2rast, f = f)
 ## Add the names of the bands so we can easily keep track of the bands in the list
 names(rgb_rast) <- as.character(rgb)
 ### Check with a plot
 plot(rgb_rast[[1]])
-x <- stack(rgb_rast[[1]],rgb_rast[[2]],rgb_rast[[3]])
-plot(x)
-plotRGB(x,r=1,g=2,b=3, scale=10000)
+rgb_stack <- stackList(rgb_rast)
+plot(rgb_stack)
+plotRGB(rgb_stack,r=1,g=2,b=3, scale=255, stretch = "Lin")
 ```
+
+We can also plot our image on a map of the US
+
+```{r mapping}
+library(maps)
+map(database="state",region="california")
+points(spinfo$LL_lat~spinfo$LL_lon,pch = 15)
+### Add raster
+```
+
+Now the fun stuff!  Let's create NDVI
+```{r ndvi}
+ndvi_bands <- c(3,4)
+ndvi_rast <- lapply(ndvi_bands,band2rast, f = f)
+ndvi_stack <- stackList(ndvi_rast)
+NDVI <- function(x) {
+  (x[,2]-x[,1])/(x[,2]+x[,1])
+}
+ndvi_calc <- calc(ndvi_stack,NDVI)
+plot(ndvi_calc)
+```
+
 
 
   
