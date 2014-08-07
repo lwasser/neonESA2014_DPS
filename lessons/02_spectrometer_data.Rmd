@@ -16,7 +16,6 @@ h5ls(f,all=T)
 
 Grab metadata
 ```{r get spatial info and map info}
-mapinfo <- h5read(f,"map info",read.attributes = T)
 spinfo <- h5metadata(f,"spatialInfo",11)
 ```
 
@@ -24,13 +23,16 @@ spinfo <- h5metadata(f,"spatialInfo",11)
 Slice up bands make a quick plot
 ```{r slicing}
 b425<- h5read(f,"Reflectance",index=list(1:477,1:502,425))
-b425 <- b425[,,1]
+## Convert from array to matrix
+b425 <- t(b425[,,1])
 b425[b425 > 14999] <- NA
+image(log(t(b425)))
 ```
 
 Ok, now let's create a meaninful raster from our data
 ```{r create raster}
-b425r <- raster(b425)
+b425r <- raster(t(b425))
+
 ## Now we need to grab the extent in a bounding box.  Luckily this is in the metadata,  We'll need it in the form of LL lon, UR lon, LL lat, UR lat
 
 ex <- sort(unlist(spinfo[2:5]))
@@ -40,6 +42,40 @@ plot(b425r)
 ```
 
 Awesome, now that we've plotted one band, try plotting your own maps with some different bands.
+
+
+Now, let's try and generate a full color image with the RGB bands.  But before we start, let's write a function to handle some of the basic cleaning we did earlier, that way we can bulk process bands.
+
+
+```{r RGB}
+# f: the hdf file
+# band: the band you want to grab
+# returns: a cleaned up HDF5 reflectance file
+getBandMat <- function(f, band){
+  out<- h5read(f,"Reflectance",index=list(1:477,1:502,band))
+  ## Convert from array to matrix
+  out <- t(out[,,1])
+  out[out > 14000] <- NA
+  return(out)
+}
+band2rast <- function(f,band){
+  out <-  raster(getBandMat(f,band))
+  ex <- sort(unlist(spinfo[2:5]))
+  e <- extent(ex)
+  extent(out) <- e
+  return(out)
+}
+
+rgb <- list(90,34,19)
+rgb_rast <- lapply(rgb,band2rast, f = f)
+## Add the names of the bands so we can easily keep track of the bands in the list
+names(rgb_rast) <- as.character(rgb)
+### Check with a plot
+plot(rgb_rast[[1]])
+x <- stack(rgb_rast[[1]],rgb_rast[[2]],rgb_rast[[3]])
+plot(x)
+plotRGB(x,r=1,g=2,b=3, scale=10000)
+```
 
 
   
