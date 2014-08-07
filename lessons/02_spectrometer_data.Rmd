@@ -8,6 +8,7 @@ output: html_document
 Reading data
 
 ```{r Reading in data}
+library(raster)
 library(rhdf5)
 f <- '/Users/thart/ESAData_2014/Part2_Spectrometer/HDF5File/SJER_140123_chip.h5'
 h5ls(f,all=T)
@@ -20,15 +21,26 @@ spinfo <- h5metadata(f,"spatialInfo",11)
 ```
 
 
-Slice up bands
+Slice up bands make a quick plot
 ```{r slicing}
-b <- h5read(f,"Reflectance",index=list(1:477,502:1,425))
-
-b1 <- band1[,,1]
-image(,,b1)
-
-b <- b1
-b[b > 14999] <- NA
-image(log(b))
+b425<- h5read(f,"Reflectance",index=list(1:477,1:502,425))
+b425 <- b425[,,1]
+b425[b425 > 14999] <- NA
 ```
+
+Ok, now let's create a meaninful raster from our data
+```{r create raster}
+b425r <- raster(b425)
+## Now we need to grab the extent in a bounding box.  Luckily this is in the metadata,  We'll need it in the form of LL lon, UR lon, LL lat, UR lat
+
+ex <- sort(unlist(spinfo[2:5]))
+e <- extent(ex)
+extent(b425r) <- e
+plot(b425r)
+```
+
+Awesome, now that we've plotted one band, try plotting your own maps with some different bands.
+
+
+  
 
