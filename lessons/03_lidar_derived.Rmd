@@ -34,7 +34,7 @@ canopy <- overlay(dsm,dtm,fun = canopyCalc)
 plot(canopy)
 ```
 
-This is great, but let's say you have some point data.  In our case we have two files.  One with plot centroids where stem heights were measured, and one with the full data. Let's start by plotting all our sampled points and their centroid (in red) on the map.
+This is great, but let's say you have some point data.  In our case we have two files.  One with plot centroids where stem heights were measured, and one with the full data. Let's start by plotting all our sampled points and their centroid (in red) on the map.  Next we need to convert our points to a spatial points data t
 
 ```{r Data overlay}
 library(sp)
@@ -50,7 +50,7 @@ points(insitu_dat$easting,insitu_dat$northing, pch=19, cex=.5)
 ## Extract data from raster for each centroid
 centroid_sp <- SpatialPoints(centroids[,4:3],proj4string =CRS(as.character(canopy@crs)) )
 ## Note that below will return a list, so we can exract via lapply
-cent_ovr <- extract(canopy,centroid_sp,buffer = 40)
+cent_ovr <- extract(canopy,centroid_sp,buffer = 20)
 
 # Create new dataframe
 centroids$overlay <- unlist(lapply(cent_ovr,max))
