@@ -24,21 +24,63 @@ Often we won't know what's in an HDF5 file, and we will need to explore the unde
 
 ```{r load file}
 f <- "data/fiuTestFile.hdf5"
-h5ls(f)
-h5dump("data/test.hdf5", load=F)
+h5ls(f,all=T)
 ```
-
-
-
-
 Note that it returns the group, the name of a particular node (which may be a group), the type, and class, and the dimensions of the object.  In this case because the class is compound (meaning there are mixed data types), the dimensions are returned as the number of elements.
 
-```{r slicing}
-D = h5read(f,"/Domain_10/Ste/min_30/boom_3/temperature",read.attributes=TRUE)
+HDF5 files essentially function as a structured file system within a single file. It's easy to dump the contents into a dataframe.
+
+```{r readHDF}
+temp <- h5read(f,"/Domain_03/Ord/min_1/boom_1/temperature")
+head(temp)
+plot(temp$mean,type='l')
+```
+
+It's that simple to extract a single table from an HDF5 file.  Another great advantage of HDF5 is that it's self describing, so metadata is embedded in the file. However the best way to access it via the low level HDF5 API
+```{r metadat}
+# Open file
+out <- H5Fopen(f)
+# open a group
+g <- H5Gopen(out,'/Domain_03/Ord')
+a <- H5Aopen_by_idx(g,1)
+H5Aget_name(a)
+aval <- H5Aread(a)
+aval 
+### Lastly we need to close the file
+H5Aclose(a)
+H5Gclose(g)
+H5Fclose(out)
+```
+
+But this is really tedious.  We can easily create a simple function that can extract all the metadata from any group.
+
+```{r metdatafxn}
+
+h5metadata <- function(fileN, group, natt){
+  out <- H5Fopen(fileN)
+  g <- H5Gopen(out,group)
+  output <- list()
+  for(i in 0:(natt-1)){
+    ## Open the attribute
+    a <- H5Aopen_by_idx(g,i)
+    output[H5Aget_name(a)] <-  H5Aread(a)
+    ## Close the attributes
+    H5Aclose(a)
+  }
+  H5Gclose(g)
+  H5Fclose(out)
+  return(output)
+}
 
 ```
 
+Now we can combine the information we get from `h5ls` with our metadata extraction function.  
 
+```{r extracting metadat}
+fiu_struct <- h5ls(f,all=T)
+g <- paste(fiu_struct[2,1:2],collapse="/")
+h5metadata(f,g,fiu_struct$num_attrs[2])
+```
 
 
 
