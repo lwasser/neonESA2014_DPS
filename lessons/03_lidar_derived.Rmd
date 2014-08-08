@@ -34,8 +34,31 @@ canopy <- overlay(dsm,dtm,fun = canopyCalc)
 plot(canopy)
 ```
 
-This is great, but let's say you have some point data.  In our case we have two files.  One with plot centroids where stem heights were measured, and one with the full data.
+This is great, but let's say you have some point data.  In our case we have two files.  One with plot centroids where stem heights were measured, and one with the full data. Let's start by plotting all our sampled points and their centroid (in red) on the map.
 
+```{r Data overlay}
+library(sp)
+library(dplyr)
+options(stringsAsFactors=FALSE)
+centroids <- read.csv("data/SJERPlotCentroids.csv")
+insitu_dat <- read.csv("data/D17_2013_vegStr.csv")
+plot(canopy)
+points(centroids$easting,centroids$northing, pch=19, cex = 2,col = 2)
+points(insitu_dat$easting,insitu_dat$northing, pch=19, cex=.5)
+## Convert points to spatial points dataframe
+
+## Extract data from raster for each centroid
+centroid_sp <- SpatialPoints(centroids[,4:3],proj4string =CRS(as.character(canopy@crs)) )
+## Note that below will return a list, so we can exract via lapply
+cent_ovr <- extract(canopy,centroid_sp,buffer = 40)
+
+# Create new dataframe
+centroids$overlay <- unlist(lapply(cent_ovr,max))
+
+insitu <- insitu_dat %.% filter(plotid %in% centroids$Plot_ID) %.% group_by(plotid) %.% summarise(quant = quantile(stemheight,.95), max = max(stemheight))
+centroids$insitu <- insitu$max
+ggplot(centroids,aes(x=overlay, y =insitu )) + geom_point() + theme_bw() + ylab("Maximum measured height") + xlab("Maximum LiDAR pixel")+geom_abline(intercept = 0, slope=1)+xlim(0, max(centroids[,6:7])) + ylim(0,max(centroids[,6:7]))
+```
 
 
 
