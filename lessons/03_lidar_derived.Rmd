@@ -25,14 +25,17 @@ dtm <- raster(dtm_f)
 plot(dtm)
 
 ## Canopy height is dsm - dtm
-canopy <- function(dsm, dtm) {
-  return(dsm - dtm)
-  
+canopyCalc <- function(x, y) {
+  return(x - y)
   }
 
-canopy_rast <- overlay(dsm,dtm,canopy)
+canopy <- overlay(dsm,dtm,fun = canopyCalc)
 ### a little raster math
-
+plot(canopy)
 ```
+
+This is great, but let's say you have some point data.  In our case we have two files.  One with plot centroids where stem heights were measured, and one with the full data.
+
+
 
 
