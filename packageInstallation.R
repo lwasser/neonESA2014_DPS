@@ -1,0 +1,6 @@
+install.packages("raster")
+install.packages("rgdal")
+install.packages("maps")
+install.packages("mapproj")
+source("http://bioconductor.org/biocLite.R")
+biocLite("rhdf5")

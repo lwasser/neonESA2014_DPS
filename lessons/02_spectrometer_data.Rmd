@@ -1,0 +1,113 @@
+---
+title: "Hyperspectral imaging"
+author: "Edmund Hart"
+date: "August 6, 2014"
+output: html_document
+---
+
+Reading data
+
+```{r Reading in data}
+library(raster)
+library(rhdf5)
+f <- '/Users/thart/ESAData_2014/Part2_Spectrometer/HDF5File/SJER_140123_chip.h5'
+h5ls(f,all=T)
+```
+
+Grab metadata
+```{r get spatial info and map info}
+spinfo <- h5metadata(f,"spatialInfo",11)
+```
+
+
+Slice up bands make a quick plot
+```{r slicing}
+b425<- h5read(f,"Reflectance",index=list(1:477,1:502,425))
+## Convert from array to matrix
+b425 <- t(b425[,,1])
+b425[b425 > 14999] <- NA
+image(log(t(b425)))
+```
+
+Ok, now let's create a meaninful raster from our data
+```{r create raster}
+b425r <- raster(t(b425))
+
+## Now we need to grab the extent in a bounding box.  Luckily this is in the metadata,  We'll need it in the form of LL lon, UR lon, LL lat, UR lat
+
+ex <- sort(unlist(spinfo[2:5]))
+e <- extent(ex)
+extent(b425r) <- e
+plot(b425r)
+```
+
+Awesome, now that we've plotted one band, try plotting your own maps with some different bands.
+
+
+Now, let's try and generate a full color image with the RGB bands.  But before we start, let's write a function to handle some of the basic cleaning we did earlier, that way we can bulk process bands.
+
+
+```{r RGB}
+# f: the hdf file
+# band: the band you want to grab
+# returns: a cleaned up HDF5 reflectance file
+getBandMat <- function(f, band){
+  out<- h5read(f,"Reflectance",index=list(1:477,1:502,band))
+  ## Convert from array to matrix
+  out <- t(out[,,1])
+  out[out > 14000] <- NA
+  return(out)
+}
+band2rast <- function(f,band){
+  out <-  raster(getBandMat(f,band),crs="+zone=11N +ellps=WGS84 +datum=WGS84 +proj=longlat")
+  ex <- sort(unlist(spinfo[2:5]))
+  e <- extent(ex)
+  extent(out) <- e
+  return(out)
+}
+
+stackList <- function(rastList){
+  ## Creates a stack of rasters from a list of rasters
+  masterRaster <- stack(rastList[[1]])
+  for(i in 2:length(rastList)){
+    masterRaster<-  addLayer(masterRaster,rastList[[i]])
+  }
+  return(masterRaster)
+}
+
+rgb <- list(58,34,19)
+rgb_rast <- lapply(rgb,band2rast, f = f)
+## Add the names of the bands so we can easily keep track of the bands in the list
+names(rgb_rast) <- as.character(rgb)
+### Check with a plot
+plot(rgb_rast[[1]])
+rgb_stack <- stackList(rgb_rast)
+plot(rgb_stack)
+plotRGB(rgb_stack,r=1,g=2,b=3, scale=255, stretch = "Lin")
+```
+
+We can also plot our image on a map of the US
+
+```{r mapping}
+library(maps)
+map(database="state",region="california")
+points(spinfo$LL_lat~spinfo$LL_lon,pch = 15)
+### Add raster
+```
+
+Now the fun stuff!  Let's create NDVI
+```{r ndvi}
+ndvi_bands <- c(3,4)
+ndvi_rast <- lapply(ndvi_bands,band2rast, f = f)
+ndvi_stack <- stackList(ndvi_rast)
+NDVI <- function(x) {
+  (x[,2]-x[,1])/(x[,2]+x[,1])
+}
+ndvi_calc <- calc(ndvi_stack,NDVI)
+plot(ndvi_calc)
+```
+
+
+
+  
+
