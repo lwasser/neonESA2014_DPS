@@ -17,6 +17,9 @@ biocLite("rhdf5")
 library("rhdf5")
 ```
 
+
+### Examining file contents
+
 Often we won't know what's in an HDF5 file, and we will need to explore the underlying structure.  So let's load up a file and examine it's contents.
 
 ```{r load file}
@@ -25,14 +28,16 @@ h5ls(f)
 h5dump("data/test.hdf5", load=F)
 ```
 
+
+
+
 Note that it returns the group, the name of a particular node (which may be a group), the type, and class, and the dimensions of the object.  In this case because the class is compound (meaning there are mixed data types), the dimensions are returned as the number of elements.
 
 ```{r slicing}
 D = h5read(f,"/Domain_10/Ste/min_30/boom_3/temperature",read.attributes=TRUE)
 
-
-
 ```
+
 
 
 
