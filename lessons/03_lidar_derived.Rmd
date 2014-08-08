@@ -1,0 +1,38 @@
+---
+title: "LiDAR derived products"
+author: "Edmund Hart, Leah Wasser"
+date: "August 10, 2014"
+output: html_document
+---
+
+Neon will also provide derived LiDAR products. One such product is a digital surface model.  These products will come as TIFF's, and they can be easily accessed with the `raster` package.
+
+
+```{r DSM}
+library(raster)
+dsm_f <- "/Users/thart/ESAData_2014/Part3_LiDAR/DigitalSurfaceModel/SJER2013_DSM.tif"
+dsm <- raster(dsm_f)
+## See info about the raster.
+dsm
+plot(dsm)
+```
+
+LiDAR will return a raster image with elevations at both the surface and the terrain.  By doing some basic raster math we can get a new raster of canopy heights.
+
+```{r Canopy}
+dtm_f <-  "/Users/thart/ESAData_2014/Part3_LiDAR/DigitalTerrainModel/SJER2013_DTM.tif"
+dtm <- raster(dtm_f)
+plot(dtm)
+
+## Canopy height is dsm - dtm
+canopy <- function(dsm, dtm) {
+  return(dsm - dtm)
+  
+  }
+
+canopy_rast <- overlay(dsm,dtm,canopy)
+### a little raster math
+
+```
+
+
