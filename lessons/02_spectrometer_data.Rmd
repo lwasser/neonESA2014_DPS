@@ -75,8 +75,8 @@ let's try again but this time, let's flip the order of things
 
 b34_2<- h5read(f,"Reflectance",index=list(1:477,502:1,34))
 ## Convert from array to matrix
-b34_2 <- t(b34_2[,,1])
-image(log(t(b34_2)))
+b34_2 <- (b34_2[,,1])
+image(log((b34_2)))
 
 #sweet! that looks a bit more like the image that we want to see
 ```
@@ -85,11 +85,16 @@ image(log(t(b34_2)))
 Ok, so now let's create a meaningful raster, that is plotted in geographic space from our data. to do this we need to know the coordinate reference system, and the location of the location of the first pixel (located in the lower left hand corner of the raster) we also need the resolution or size of each pixel in the data. Now NOTE that we are using the original matrix - b34 that we created above. if you remember correctly, this matrix is flipped along the Y axis. this is OK because the R raster function is smart enough to know to how to read in the data properly (starting at the lower left hand corner!). 
 
 ```{r create raster}
-b34r <- raster((b34))
+b34r <- raster(t(b34))
 
 ## Now we need to grab the extent in a bounding box.  Luckily this is in the metadata,  We'll need it in the form of LL lon, UR lon, LL lat, UR lat
 
 ex <- sort(unlist(spinfo[2:5]))
+#the coordinates for the extent are in lat long, let's convert them manually to UTM to make sure things line up. This information will generally be found in the metadata.
+ex[1] <-256507.3
+ex[2] <-257011.9
+ex[3] <-4112083.6
+ex[4] <-4112556.6
 e <- extent(ex)
 extent(b34r) <- e
 plot(b34r)
@@ -143,7 +148,7 @@ rgb_stack <- stackList(rgb_rast)
 plot(rgb_stack)
 plotRGB(rgb_stack,r=1,g=2,b=3, scale=300, stretch = "Lin")
 
-
+#maybe we want to use our raster in another program. here is how to write it out in tif format.
 writeRaster(rgb_stack,file="/Users/lwasser/Documents/dropbox/ESA2014_Data/test/test4.tif",overwrite=TRUE)
 ```
 
