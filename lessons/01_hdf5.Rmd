@@ -1,7 +1,7 @@
 ---
 title: "HD5 in R"
 author: "Edmund Hart"
-date: "August 1, 2014"
+date: "August 10, 2014"
 output:
   html_document:
     theme: united
@@ -12,8 +12,8 @@ HDF5 is a format that allows the storage of large heterogeneous data sets with s
 
 The package we'll be using in `rhdf` which is part of the [Bioconductor](http://www.bioconductor.org) suite of `R` packages
 ```{r Installation}
-source("http://bioconductor.org/biocLite.R")
-biocLite("rhdf5")
+#source("http://bioconductor.org/biocLite.R")
+#biocLite("rhdf5")
 library("rhdf5")
 ```
 
@@ -23,7 +23,7 @@ library("rhdf5")
 Often we won't know what's in an HDF5 file, and we will need to explore the underlying structure.  So let's load up a file and examine it's contents.
 
 ```{r load file}
-f <- "data/fiuTestFile.hdf5"
+f <- "/Users/THART/scratch/neonESA2014/data/fiuTestFile.hdf5"
 h5ls(f,all=T)
 ```
 Note that it returns the group, the name of a particular node (which may be a group), the type, and class, and the dimensions of the object.  In this case because the class is compound (meaning there are mixed data types), the dimensions are returned as the number of elements.
@@ -87,8 +87,8 @@ h5metadata(f,g,fiu_struct$num_attrs[2])
 
 Now, let's say we want to compare temeratures across sites, how can we build a dataframe to do this?  We'll use our knowledge of the structure of the HDF5 to easily loop through the file and build a new data frame.  Let's look at Domain 3, 1 minute series across all the booms.
 ```{r compare booms}
-library(plyr)
 library(dplyr)
+library(ggplot2)
 # Set the path string
 s <- "/Domain_03/Ord/min_1"
 ### Grab the paths
