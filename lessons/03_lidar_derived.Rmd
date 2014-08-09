@@ -34,7 +34,7 @@ canopy <- overlay(dsm,dtm,fun = canopyCalc)
 plot(canopy)
 ```
 
-This is great, but let's say you have some point data.  In our case we have two files.  One with plot centroids where stem heights were measured, and one with the full data. Let's start by plotting all our sampled points and their centroid (in red) on the map.  Next we need to convert our points to a spatial points data t
+This is great, but let's say you have some point data.  In our case we have two files.  One with plot centroids where stem heights were measured, and one with the full data. Let's start by plotting all our sampled points and their centroid (in red) on the map.  Next we need to convert our points to a spatial points data frame, overlay our points, and then rejoin the data by plot id.
 
 ```{r Data overlay}
 library(sp)
