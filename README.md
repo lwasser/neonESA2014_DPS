@@ -1,5 +1,3 @@
-neonESA2014
-===========
 
 Repository holding NEON teaching materials.
 
@@ -19,7 +17,7 @@ Tentative schedule
 
 1:30 - 1:50 - Break
 
-1:50 - 2:50 - Vizualization 
+1:50 - 2:50 - Vizualization
 * Big data vizualization
 * vizualizing lidar data
   * reading Tiffs
@@ -28,13 +26,12 @@ Tentative schedule
 2:50 - 3:10 - Break
 
 3:10 - 4:30 - Bringing it together
- 
+
 * Overlaying flight data with species occurrence data
   * Basic GIS with GBIF data
 
 * Automated extraction of metadata from HDF5 to use in data searches
   * using rnoaa and spocc
-
 
 
 
