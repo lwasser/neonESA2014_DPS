@@ -1,0 +1,64 @@
+---
+title: "LiDAR derived products"
+author: "Edmund Hart, Leah Wasser"
+date: "August 10, 2014"
+output: html_document
+---
+
+Neon will also provide derived LiDAR products. One such product is a digital surface model.  These products will come as TIFF's, and they can be easily accessed with the `raster` package.
+
+
+```{r DSM}
+library(raster)
+dsm_f <- "/Users/thart/ESAData_2014/Part3_LiDAR/DigitalSurfaceModel/SJER2013_DSM.tif"
+dsm <- raster(dsm_f)
+## See info about the raster.
+dsm
+plot(dsm)
+```
+
+LiDAR will return a raster image with elevations at both the surface and the terrain.  By doing some basic raster math we can get a new raster of canopy heights.
+
+```{r Canopy}
+dtm_f <-  "/Users/thart/ESAData_2014/Part3_LiDAR/DigitalTerrainModel/SJER2013_DTM.tif"
+dtm <- raster(dtm_f)
+plot(dtm)
+
+## Canopy height is dsm - dtm
+canopyCalc <- function(x, y) {
+  return(x - y)
+  }
+
+canopy <- overlay(dsm,dtm,fun = canopyCalc)
+### a little raster math
+plot(canopy)
+```
+
+This is great, but let's say you have some point data.  In our case we have two files.  One with plot centroids where stem heights were measured, and one with the full data. Let's start by plotting all our sampled points and their centroid (in red) on the map.  Next we need to convert our points to a spatial points data frame, overlay our points, and then rejoin the data by plot id.
+
+```{r Data overlay}
+library(sp)
+library(dplyr)
+options(stringsAsFactors=FALSE)
+centroids <- read.csv("data/SJERPlotCentroids.csv")
+insitu_dat <- read.csv("data/D17_2013_vegStr.csv")
+plot(canopy)
+points(centroids$easting,centroids$northing, pch=19, cex = 2,col = 2)
+points(insitu_dat$easting,insitu_dat$northing, pch=19, cex=.5)
+## Convert points to spatial points dataframe
+
+## Extract data from raster for each centroid
+centroid_sp <- SpatialPoints(centroids[,4:3],proj4string =CRS(as.character(canopy@crs)) )
+## Note that below will return a list, so we can exract via lapply
+cent_ovr <- extract(canopy,centroid_sp,buffer = 20)
+
+# Create new dataframe
+centroids$overlay <- unlist(lapply(cent_ovr,max))
+
+insitu <- insitu_dat %.% filter(plotid %in% centroids$Plot_ID) %.% group_by(plotid) %.% summarise(quant = quantile(stemheight,.95), max = max(stemheight))
+centroids$insitu <- insitu$max
+ggplot(centroids,aes(x=overlay, y =insitu )) + geom_point() + theme_bw() + ylab("Maximum measured height") + xlab("Maximum LiDAR pixel")+geom_abline(intercept = 0, slope=1)+xlim(0, max(centroids[,6:7])) + ylim(0,max(centroids[,6:7]))
+```
+
+
+
