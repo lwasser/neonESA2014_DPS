@@ -1,0 +1,75 @@
+# Data from NEON Inc.
+# These data are provided under the terms of the NEON data policy included in this data download.
+# Data Product ID: NEON.D03.CS1.DP1.00003.001.002.006.002
+# Data Product Name: 30 minutes minimum temperature tower level 6
+# Site: Ordway-Swisher Biological Station Site, CORE (FL)
+# Geographic coordinates (lat/long): 29.68927/-81.99343
+# Domain: Domain 03
+# Query Citation Code: 8FCB4F3AD72D4C1EA7AAD5CEBDCBB80F
+# Date-Time of Query Submission: 2014-07-10 14:25 (UTC)
+# Start Date-Time for Data: 2014-04-02 00:00 (UTC)
+# End Date-Time for Data: 2014-04-03 00:00 (UTC)
+# 
+### Sensor Metadata Below
+### Sensor information: Thermometrics Climate RTD 100  Omega  Probe and Met One 076B aspirated radiation shield
+### Units: deg C
+### Sampling Rate (Hz): 1
+### Assembly repeatability (precision) in deg C: 0.0025
+### Assembly refers to the sensor(s) and relevant components (e.g. DAS); here repeatability represents the maximum expected assembly noise given at 95% confidence.
+### Boom Level: 6 (tower-top)
+### Height Above Ground Level (m): 34.96
+### Lat/Lon: 29.6892369/-81.9934109
+### Threshold For Range test (Hard): min:  -89.2 (deg C) max:  56.7 (deg C)
+### Threshold for Range test (soft): min: -27.2 (deg C) max: 44.4 (deg C)
+### Threshold For Step test: 0.5 (deg C)
+#
+Start Date,End Date,Data 1,Data 2,Units,Readout Version,Value Name,Measurement Readout Type Name
+2014-04-02 00:00:00.0,2014-04-02 00:30:00.0,24.72397473697780867496476275846362113952,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 00:30:00.0,2014-04-02 01:00:00.0,20.93426592701606381297096959315240383148,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 01:00:00.0,2014-04-02 01:30:00.0,20.32127819247059363760854466818273067474,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 01:30:00.0,2014-04-02 02:00:00.0,19.59614393969343382195802405476570129394,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 02:00:00.0,2014-04-02 02:30:00.0,18.64276884367117759211396332830190658569,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 02:30:00.0,2014-04-02 03:00:00.0,18.69690925794408897786524903494864702224,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 03:00:00.0,2014-04-02 03:30:00.0,18.70414880796542078655875229742377996444,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 03:30:00.0,2014-04-02 04:00:00.0,18.14710750991099175166709756013005971908,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 04:00:00.0,2014-04-02 04:30:00.0,17.71369194191220941547726397402584552764,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 04:30:00.0,2014-04-02 05:00:00.0,17.72472142571765019170015875715762376785,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 05:00:00.0,2014-04-02 05:30:00.0,17.46471166397718022267326887231320142745,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 05:30:00.0,2014-04-02 06:00:00.0,17.48673897004388777531858067959547042846,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 06:00:00.0,2014-04-02 06:30:00.0,15.76346106019759218952458468265831470489,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 06:30:00.0,2014-04-02 07:00:00.0,15.05650212169599910794204333797097206115,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 07:00:00.0,2014-04-02 07:30:00.0,14.51073248947169247458077734336256980895,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 07:30:00.0,2014-04-02 08:00:00.0,14.24454465138187941875003161840140819549,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 08:00:00.0,2014-04-02 08:30:00.0,14.16129365165270570514621795155107975006,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 08:30:00.0,2014-04-02 09:00:00.0,13.80360072301464668953485670499503612518,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 09:00:00.0,2014-04-02 09:30:00.0,13.71294108220796914565653423778712749481,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 09:30:00.0,2014-04-02 10:00:00.0,13.78712944406246698747509071836248040199,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 10:00:00.0,2014-04-02 10:30:00.0,13.73305173801404777123025269247591495513,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 10:30:00.0,2014-04-02 11:00:00.0,14.16933931765274223835149314254522323608,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 11:00:00.0,2014-04-02 11:30:00.0,13.85467956431644154235982568934559822082,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 11:30:00.0,2014-04-02 12:00:00.0,13.7424714699404972861884743906557559967,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 12:00:00.0,2014-04-02 12:30:00.0,14.79062932330996460450478480197489261627,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 12:30:00.0,2014-04-02 13:00:00.0,15.02383892584577473883200582349672913551,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 13:00:00.0,2014-04-02 13:30:00.0,16.59780491198370810934648034162819385528,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 13:30:00.0,2014-04-02 14:00:00.0,18.16515700703261160242618643678724765777,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 14:00:00.0,2014-04-02 14:30:00.0,19.12563105029769872089673299342393875122,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 14:30:00.0,2014-04-02 15:00:00.0,20.22003667565711282350093824788928031921,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 15:00:00.0,2014-04-02 15:30:00.0,21.58397168987559311403856554534286260604,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 15:30:00.0,2014-04-02 16:00:00.0,22.16153768651173550097155384719371795654,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 16:00:00.0,2014-04-02 16:30:00.0,22.85855534354769957872122176922857761383,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 16:30:00.0,2014-04-02 17:00:00.0,23.44073325738383672955933434423059225082,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 17:00:00.0,2014-04-02 17:30:00.0,24.05283820767720115441079542506486177444,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 17:30:00.0,2014-04-02 18:00:00.0,25.04637274269469671139631827827543020248,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 18:00:00.0,2014-04-02 18:30:00.0,25.38439997948158932672413357067853212356,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 18:30:00.0,2014-04-02 19:00:00.0,25.93538011256618602828893926925957202911,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 19:00:00.0,2014-04-02 19:30:00.0,26.29949867774338656545296544209122657775,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 19:30:00.0,2014-04-02 20:00:00.0,26.91208276074307192970991309266537427902,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 20:00:00.0,2014-04-02 20:30:00.0,27.07830331642434273931030475068837404251,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 20:30:00.0,2014-04-02 21:00:00.0,27.36330868946130934205029916483908891677,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 21:00:00.0,2014-04-02 21:30:00.0,27.56485286887108188125239394139498472213,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 21:30:00.0,2014-04-02 22:00:00.0,27.45831525455422550408002280164510011672,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 22:00:00.0,2014-04-02 22:30:00.0,27.48202309178769198183545086067169904708,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 22:30:00.0,2014-04-02 23:00:00.0,27.35141602731126297953778703231364488601,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 23:00:00.0,2014-04-02 23:30:00.0,26.77719116773639385087335540447384119033,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 23:30:00.0,2014-04-03 00:00:00.0,23.97822537550722188370855292305350303649,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 00:00:00.0,2014-04-03 00:30:00.0,23.39977611383268296663118235301226377487,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Level-1 FIU measurement stream readout type

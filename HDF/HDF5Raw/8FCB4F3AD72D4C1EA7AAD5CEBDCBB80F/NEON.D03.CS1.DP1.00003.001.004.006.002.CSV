@@ -1,0 +1,75 @@
+# Data from NEON Inc.
+# These data are provided under the terms of the NEON data policy included in this data download.
+# Data Product ID: NEON.D03.CS1.DP1.00003.001.004.006.002
+# Data Product Name: 30 minutes variance temperature tower level 6
+# Site: Ordway-Swisher Biological Station Site, CORE (FL)
+# Geographic coordinates (lat/long): 29.68927/-81.99343
+# Domain: Domain 03
+# Query Citation Code: 8FCB4F3AD72D4C1EA7AAD5CEBDCBB80F
+# Date-Time of Query Submission: 2014-07-10 14:25 (UTC)
+# Start Date-Time for Data: 2014-04-02 00:00 (UTC)
+# End Date-Time for Data: 2014-04-03 00:00 (UTC)
+# 
+### Sensor Metadata Below
+### Sensor information: Thermometrics Climate RTD 100  Omega  Probe and Met One 076B aspirated radiation shield
+### Units: deg C
+### Sampling Rate (Hz): 1
+### Assembly repeatability (precision) in deg C: 0.0025
+### Assembly refers to the sensor(s) and relevant components (e.g. DAS); here repeatability represents the maximum expected assembly noise given at 95% confidence.
+### Boom Level: 6 (tower-top)
+### Height Above Ground Level (m): 34.96
+### Lat/Lon: 29.6892369/-81.9934109
+### Threshold For Range test (Hard): min:  -89.2 (deg C) max:  56.7 (deg C)
+### Threshold for Range test (soft): min: -27.2 (deg C) max: 44.4 (deg C)
+### Threshold For Step test: 0.5 (deg C)
+#
+Start Date,End Date,Data 1,Data 2,Units,Readout Version,Value Name,Measurement Readout Type Name
+2014-04-02 00:00:00.0,2014-04-02 00:30:00.0,0.0182633405003996690529888269338698592036,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 00:30:00.0,2014-04-02 01:00:00.0,2.36413294122896244786602437670808285474,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 01:00:00.0,2014-04-02 01:30:00.0,0.0817809683909315743299828227463876828551,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 01:30:00.0,2014-04-02 02:00:00.0,0.0573086634160340502308628174432669766247,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 02:00:00.0,2014-04-02 02:30:00.0,0.1369601665564380288397927643018192611634,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 02:30:00.0,2014-04-02 03:00:00.0,0.0410120504353982395784328218724112957715,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 03:00:00.0,2014-04-02 03:30:00.0,0.0495465759691885304638603315652289893478,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 03:30:00.0,2014-04-02 04:00:00.0,0.0413467144392244342898656839224713621661,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 04:00:00.0,2014-04-02 04:30:00.0,0.0533906946955976999258375315093871904537,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 04:30:00.0,2014-04-02 05:00:00.0,0.0487540556871188524024063326578470878303,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 05:00:00.0,2014-04-02 05:30:00.0,0.1161683596598474810246415245273965410888,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 05:30:00.0,2014-04-02 06:00:00.0,0.0298479806702135891383065313675615470856,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 06:00:00.0,2014-04-02 06:30:00.0,0.345655811636119858487603551111533306539,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 06:30:00.0,2014-04-02 07:00:00.0,0.0873699595938087630875301670130284037441,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 07:00:00.0,2014-04-02 07:30:00.0,0.0848850883985091397843092408947995863854,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 07:30:00.0,2014-04-02 08:00:00.0,0.0960724265212703903982216502299706917256,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 08:00:00.0,2014-04-02 08:30:00.0,0.0709281574263493641563371738811838440597,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 08:30:00.0,2014-04-02 09:00:00.0,0.0310672813642284204038723771645891247317,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 09:00:00.0,2014-04-02 09:30:00.0,0.0278151624316999059038924002607018337585,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 09:30:00.0,2014-04-02 10:00:00.0,0.1444462802181093741271666885950253345072,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 10:00:00.0,2014-04-02 10:30:00.0,0.1776528301528505771056387629869277589023,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 10:30:00.0,2014-04-02 11:00:00.0,0.1257940962771813830922695842673419974744,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 11:00:00.0,2014-04-02 11:30:00.0,0.0841954015654989978978406384158006403595,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 11:30:00.0,2014-04-02 12:00:00.0,0.3278840616736831692357156953221419826149,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 12:00:00.0,2014-04-02 12:30:00.0,0.1717580262474930896665625823516165837645,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 12:30:00.0,2014-04-02 13:00:00.0,0.2530988959835515639262837339629186317324,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 13:00:00.0,2014-04-02 13:30:00.0,0.333871218431724237074575967199052684009,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 13:30:00.0,2014-04-02 14:00:00.0,0.0592111206632632211532829558109369827434,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 14:00:00.0,2014-04-02 14:30:00.0,0.1912313586208751747808065601930138655006,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 14:30:00.0,2014-04-02 15:00:00.0,0.150716521949494530741020525965723209083,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 15:00:00.0,2014-04-02 15:30:00.0,0.0950102216495385815120400252453691791743,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 15:30:00.0,2014-04-02 16:00:00.0,0.1330087573310982929086776493932120501995,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 16:00:00.0,2014-04-02 16:30:00.0,0.1498707370736809263433997330139391124248,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 16:30:00.0,2014-04-02 17:00:00.0,0.1253193096269139550358318047074135392904,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 17:00:00.0,2014-04-02 17:30:00.0,0.2616447409555878178544219281320692971348,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 17:30:00.0,2014-04-02 18:00:00.0,0.1464275071319352805598867917069583199918,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 18:00:00.0,2014-04-02 18:30:00.0,0.1247082436476657230084441607687040232121,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 18:30:00.0,2014-04-02 19:00:00.0,0.1559985842526415700248776374792214483022,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 19:00:00.0,2014-04-02 19:30:00.0,0.1578504085585130389812746898314799182116,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 19:30:00.0,2014-04-02 20:00:00.0,0.0799271381726398416622814124821161385625,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 20:00:00.0,2014-04-02 20:30:00.0,0.0704687855978533145284714578338025603443,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 20:30:00.0,2014-04-02 21:00:00.0,0.0587974903447199062633821142753731692209,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 21:00:00.0,2014-04-02 21:30:00.0,0.0499174136240949153919821412728197174146,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 21:30:00.0,2014-04-02 22:00:00.0,0.0401854013631587209109952141261601354926,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 22:00:00.0,2014-04-02 22:30:00.0,0.0156503889743915720889066989229831960983,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 22:30:00.0,2014-04-02 23:00:00.0,0.00789411734932267059039467937964218435809,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 23:00:00.0,2014-04-02 23:30:00.0,0.032832962149006224283898092153322068043,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 23:30:00.0,2014-04-03 00:00:00.0,0.570915339700842960901638889481546357274,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 00:00:00.0,2014-04-03 00:30:00.0,0.0628196577399321165469103789291693828999,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Level-1 FIU measurement stream readout type

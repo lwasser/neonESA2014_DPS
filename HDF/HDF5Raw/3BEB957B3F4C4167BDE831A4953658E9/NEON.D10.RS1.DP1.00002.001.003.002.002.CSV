@@ -1,0 +1,75 @@
+# Data from NEON Inc.
+# These data are provided under the terms of the NEON data policy included in this data download.
+# Data Product ID: NEON.D10.RS1.DP1.00002.001.003.002.002
+# Data Product Name: 30 minutes maximum temperature tower level 2
+# Site: Sterling Site, RELOCATABLE (CO)
+# Geographic coordinates (lat/long): 40.4619/-103.0293
+# Domain: Domain 10
+# Query Citation Code: 3BEB957B3F4C4167BDE831A4953658E9
+# Date-Time of Query Submission: 2014-07-10 16:32 (UTC)
+# Start Date-Time for Data: 2014-04-03 00:00 (UTC)
+# End Date-Time for Data: 2014-04-04 00:00 (UTC)
+# 
+### Sensor Metadata Below
+### Sensor information: Thermometrics Climate RTD 100  Omega  Probe and Met One 076B aspirated radiation shield
+### Units: deg C
+### Sampling Rate (Hz): 1
+### Assembly repeatability (precision) in deg C: 0.0025
+### Assembly refers to the sensor(s) and relevant components (e.g. DAS); here repeatability represents the maximum expected assembly noise given at 95% confidence.
+### Boom Level: 2
+### Height Above Ground Level (m): 1.497
+### Lat/Lon: 40.46187291/-103.0293535
+### Threshold For Range test (Hard): min:  -89.2 (deg C) max:  56.7 (deg C)
+### Threshold for Range test (soft): min: -54.4 (deg C) max: 46.1 (deg C)
+### Threshold For Step test: 0.5 (deg C)
+#
+Start Date,End Date,Data 1,Data 2,Units,Readout Version,Value Name,Measurement Readout Type Name
+2014-04-03 00:00:00.0,2014-04-03 00:30:00.0,7.65741492347114593997048359597101807594,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 00:30:00.0,2014-04-03 01:00:00.0,6.83388969112719379950249276589602231979,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 01:00:00.0,2014-04-03 01:30:00.0,6.40746358066930099539604270830750465393,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 01:30:00.0,2014-04-03 02:00:00.0,5.74424971652847915493111941032111644744,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 02:00:00.0,2014-04-03 02:30:00.0,4.26664612311391522325720870867371559143,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 02:30:00.0,2014-04-03 03:00:00.0,3.25158924896600787235456664348021149635,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 03:00:00.0,2014-04-03 03:30:00.0,2.54114445090977270069743099156767129898,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 03:30:00.0,2014-04-03 04:00:00.0,2.0553795975032986831365633406676352024,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 04:00:00.0,2014-04-03 04:30:00.0,1.98288808638576163900779647519811987876,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 04:30:00.0,2014-04-03 05:00:00.0,1.14395048890607675673436460783705115318,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 05:00:00.0,2014-04-03 05:30:00.0,1.14582067004388221675981185398995876312,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 05:30:00.0,2014-04-03 06:00:00.0,1.23431825515184812047664308920502662658,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 06:00:00.0,2014-04-03 06:30:00.0,1.13270387578763020997030253056436777114,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 06:30:00.0,2014-04-03 07:00:00.0,0.764573733786196640949128777720034122467,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 07:00:00.0,2014-04-03 07:30:00.0,0.6333315492697000337329882313497364521026,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 07:30:00.0,2014-04-03 08:00:00.0,0.3011726605885627350289723835885524749755,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 08:00:00.0,2014-04-03 08:30:00.0,0.131892858864402384710956539493054151535,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 08:30:00.0,2014-04-03 09:00:00.0,0.0917707795264490755471342708915472030639,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 09:00:00.0,2014-04-03 09:30:00.0,0.0482191270312704034495254745706915855407,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 09:30:00.0,2014-04-03 10:00:00.0,0.0350863186546668259779835352674126625061,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 10:00:00.0,2014-04-03 10:30:00.0,0.1140244378361483512662744033150374889373,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 10:30:00.0,2014-04-03 11:00:00.0,0.1575744161181287239514858811162412166595,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 11:00:00.0,2014-04-03 11:30:00.0,0.1937230515809904574098254670388996601104,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 11:30:00.0,2014-04-03 12:00:00.0,0.0301570596334830298701490391977131366729,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 12:00:00.0,2014-04-03 12:30:00.0,0.0698876104073864468091414892114698886871,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 12:30:00.0,2014-04-03 13:00:00.0,0.1010854737367115063761957571841776371002,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 13:00:00.0,2014-04-03 13:30:00.0,0.1672800797364359937091649044305086135864,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 13:30:00.0,2014-04-03 14:00:00.0,0.2005630632093513554536912124603986740112,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 14:00:00.0,2014-04-03 14:30:00.0,0.1813482350783370833369190222583711147308,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 14:30:00.0,2014-04-03 15:00:00.0,0.392298673043125489812155137769877910614,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 15:00:00.0,2014-04-03 15:30:00.0,0.3858286318744550413839533575810492038726,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 15:30:00.0,2014-04-03 16:00:00.0,0.6922871857167454123782590613700449466705,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 16:00:00.0,2014-04-03 16:30:00.0,1.03988119880506957315446925349533557891,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 16:30:00.0,2014-04-03 17:00:00.0,1.46439818161157830900265253148972988128,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 17:00:00.0,2014-04-03 17:30:00.0,2.07140839707866675212244444992393255233,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 17:30:00.0,2014-04-03 18:00:00.0,3.40102006143746216082490718690678477287,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 18:00:00.0,2014-04-03 18:30:00.0,3.41685860996157408919771114597097039222,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 18:30:00.0,2014-04-03 19:00:00.0,3.91603341831530116223802906461060047149,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 19:00:00.0,2014-04-03 19:30:00.0,4.53506770244378820677866315236315131187,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 19:30:00.0,2014-04-03 20:00:00.0,4.36568310500724088285551260923966765403,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 20:00:00.0,2014-04-03 20:30:00.0,4.80888008397697142015658755553886294364,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 20:30:00.0,2014-04-03 21:00:00.0,5.55360645288513055106704996433109045028,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 21:00:00.0,2014-04-03 21:30:00.0,5.81262877294512492198919062502682209014,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 21:30:00.0,2014-04-03 22:00:00.0,6.86503198536239978011508355848491191864,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 22:00:00.0,2014-04-03 22:30:00.0,7.26400359714973298252971289912238717079,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 22:30:00.0,2014-04-03 23:00:00.0,7.5434716495686160442346590571105480194,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 23:00:00.0,2014-04-03 23:30:00.0,7.7894875920287507398143134196288883686,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-03 23:30:00.0,2014-04-04 00:00:00.0,6.95713997366880043671244493452832102775,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)
+2014-04-04 00:00:00.0,2014-04-04 00:30:00.0,6.54479596412123143522876489441841840744,,degree Celsius,Version 1.0,Temperature Max (NEON.DOC.000646),Temperature Max measurement stream value type (NEON.DOC.000646)

@@ -1,0 +1,75 @@
+# Data from NEON Inc.
+# These data are provided under the terms of the NEON data policy included in this data download.
+# Data Product ID: NEON.D10.RS1.DP1.00002.001.004.003.002
+# Data Product Name: 30 minutes variance temperature tower level 3
+# Site: Sterling Site, RELOCATABLE (CO)
+# Geographic coordinates (lat/long): 40.4619/-103.0293
+# Domain: Domain 10
+# Query Citation Code: 3BEB957B3F4C4167BDE831A4953658E9
+# Date-Time of Query Submission: 2014-07-10 16:32 (UTC)
+# Start Date-Time for Data: 2014-04-03 00:00 (UTC)
+# End Date-Time for Data: 2014-04-04 00:00 (UTC)
+# 
+### Sensor Metadata Below
+### Sensor information: Thermometrics Climate RTD 100  Omega  Probe and Met One 076B aspirated radiation shield
+### Units: deg C
+### Sampling Rate (Hz): 1
+### Assembly repeatability (precision) in deg C: 0.0025
+### Assembly refers to the sensor(s) and relevant components (e.g. DAS); here repeatability represents the maximum expected assembly noise given at 95% confidence.
+### Boom Level: 3
+### Height Above Ground Level (m): 4.606
+### Lat/Lon: 40.46187293/-103.0293535
+### Threshold For Range test (Hard): min:  -89.2 (deg C) max:  56.7 (deg C)
+### Threshold for Range test (soft): min: -54.4 (deg C) max: 46.1 (deg C)
+### Threshold For Step test: 0.5 (deg C)
+#
+Start Date,End Date,Data 1,Data 2,Units,Readout Version,Value Name,Measurement Readout Type Name
+2014-04-03 00:00:00.0,2014-04-03 00:30:00.0,0.0253599199828486235319680019983934471383,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 00:30:00.0,2014-04-03 01:00:00.0,0.0187359180439694537889661063445601030252,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 01:00:00.0,2014-04-03 01:30:00.0,0.0290454503995198620724949023497174493968,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 01:30:00.0,2014-04-03 02:00:00.0,0.1786861100116534928350375821537454612553,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 02:00:00.0,2014-04-03 02:30:00.0,0.0684318806323570560934399509278591722249,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 02:30:00.0,2014-04-03 03:00:00.0,0.0352391991329694120871351969981333240866,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 03:00:00.0,2014-04-03 03:30:00.0,0.0656172222367438912060677580484480131417,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 03:30:00.0,2014-04-03 04:00:00.0,0.005482113587669072522767788058217774960212,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 04:00:00.0,2014-04-03 04:30:00.0,0.0805216534571779329887419862643582746386,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 04:30:00.0,2014-04-03 05:00:00.0,0.001709711770063531430588477100229738425696,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 05:00:00.0,2014-04-03 05:30:00.0,0.001310948875126896661161279844520777260186,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 05:30:00.0,2014-04-03 06:00:00.0,0.007765339837599002752177579367298676515929,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 06:00:00.0,2014-04-03 06:30:00.0,0.0113804587416836341939863075367611600086,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 06:30:00.0,2014-04-03 07:00:00.0,0.005587857269573436383436337848706898512318,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 07:00:00.0,2014-04-03 07:30:00.0,0.0121545707773601050633027753633541578892,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 07:30:00.0,2014-04-03 08:00:00.0,0.0005124001860782640034586155053375478019,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 08:00:00.0,2014-04-03 08:30:00.0,0.000942897459655836988300092738057855967781,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 08:30:00.0,2014-04-03 09:00:00.0,0.000255866082589584740731442069616718981706,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 09:00:00.0,2014-04-03 09:30:00.0,0.00005140999728981791589820654619913398164499,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 09:30:00.0,2014-04-03 10:00:00.0,0.000322637704806500293184395866674663011508,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 10:00:00.0,2014-04-03 10:30:00.0,0.001202101781411264594737198230234298534924,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 10:30:00.0,2014-04-03 11:00:00.0,0.000397408830813288527911142367088359605986,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 11:00:00.0,2014-04-03 11:30:00.0,0.006692958423833856619611371030487134703435,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 11:30:00.0,2014-04-03 12:00:00.0,0.000361059226955483486640879897677791632304,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 12:00:00.0,2014-04-03 12:30:00.0,0.001387186758292571634246237444187954679364,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 12:30:00.0,2014-04-03 13:00:00.0,0.000163975861493658922867638905174203500791,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 13:00:00.0,2014-04-03 13:30:00.0,0.000382166334120869128406633441485951152571,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 13:30:00.0,2014-04-03 14:00:00.0,0.000160913823304101240600424982396532413986,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 14:00:00.0,2014-04-03 14:30:00.0,0.000650049392046863814230428513241122345789,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 14:30:00.0,2014-04-03 15:00:00.0,0.00186005818251513488706394561233992135385,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 15:00:00.0,2014-04-03 15:30:00.0,0.003001109539311807520439723262484221777413,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 15:30:00.0,2014-04-03 16:00:00.0,0.0148299708715013949661409853320037655066,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 16:00:00.0,2014-04-03 16:30:00.0,0.009880256873522836116863210520477878162637,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 16:30:00.0,2014-04-03 17:00:00.0,0.0111067882504576453256417423176571901421,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 17:00:00.0,2014-04-03 17:30:00.0,0.0197096855099879141037799712421474396251,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 17:30:00.0,2014-04-03 18:00:00.0,0.0612166277464027616672659348751039942726,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 18:00:00.0,2014-04-03 18:30:00.0,0.0283333653967647695892662085270785610191,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 18:30:00.0,2014-04-03 19:00:00.0,0.0825802313569522078440243717523117084056,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 19:00:00.0,2014-04-03 19:30:00.0,0.0394069071789863653587637770669971359893,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 19:30:00.0,2014-04-03 20:00:00.0,0.0247558831355418479391872210726432967931,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 20:00:00.0,2014-04-03 20:30:00.0,0.0530781218575757871014353383998241042718,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 20:30:00.0,2014-04-03 21:00:00.0,0.1228281281615646591820478761292179115116,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 21:00:00.0,2014-04-03 21:30:00.0,0.0251496224749996610814406494682771153748,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 21:30:00.0,2014-04-03 22:00:00.0,0.0608081263740080854574010515989357372745,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 22:00:00.0,2014-04-03 22:30:00.0,0.0385054296107033150464715731686737854033,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 22:30:00.0,2014-04-03 23:00:00.0,0.053197595335592158527493467090607737191,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 23:00:00.0,2014-04-03 23:30:00.0,0.091940395668906521597918413135630544275,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-03 23:30:00.0,2014-04-04 00:00:00.0,0.0126221301656576738448034546991038951091,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)
+2014-04-04 00:00:00.0,2014-04-04 00:30:00.0,0.0509530066857967825488806568046129541471,,Celsius*Celsius,Version 1.0,Temperature Variance (NEON.DOC.000646),Temperature Variance measurement stream value type (NEON.DOC.000646)

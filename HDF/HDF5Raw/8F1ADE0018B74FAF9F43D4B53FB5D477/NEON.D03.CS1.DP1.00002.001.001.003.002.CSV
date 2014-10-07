@@ -1,0 +1,222 @@
+# Data from NEON Inc.
+# These data are provided under the terms of the NEON data policy included in this data download.
+# Data Product ID: NEON.D03.CS1.DP1.00002.001.001.003.002
+# Data Product Name: 30 minutes mean temperature tower level 3
+# Site: Ordway-Swisher Biological Station Site, CORE (FL)
+# Geographic coordinates (lat/long): 29.68927/-81.99343
+# Domain: Domain 03
+# Query Citation Code: 8F1ADE0018B74FAF9F43D4B53FB5D477
+# Date-Time of Query Submission: 2014-07-09 19:52 (UTC)
+# Start Date-Time for Data: 2014-04-01 00:00 (UTC)
+# End Date-Time for Data: 2014-04-02 00:00 (UTC)
+# 
+### Sensor Metadata Below
+### Sensor information: Thermometrics Climate RTD 100  Omega  Probe and Met One 076B aspirated radiation shield
+### Units: deg C
+### Sampling Rate (Hz): 1
+### Assembly repeatability (precision) in deg C: 0.0025
+### Assembly refers to the sensor(s) and relevant components (e.g. DAS); here repeatability represents the maximum expected assembly noise given at 95% confidence.
+### Boom Level: 3
+### Height Above Ground Level (m): 8.7
+### Lat/Lon: 29.68923559/-81.99340654
+### Threshold For Range test (Hard): min:  -89.2 (deg C) max:  56.7 (deg C)
+### Threshold for Range test (soft): min: -27.2 (deg C) max: 44.4 (deg C)
+### Threshold For Step test: 0.5 (deg C)
+#
+Start Date,End Date,Data 1,Data 2,Units,Readout Version,Value Name,Measurement Readout Type Name
+2014-04-01 00:00:00.0,2014-04-01 00:30:00.0,0.006070263410723160564519407245143156615085,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 00:00:00.0,2014-04-01 00:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 00:00:00.0,2014-04-01 00:30:00.0,20.04728474434365992351558816153556108474,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 00:00:00.0,2014-04-01 00:30:00.0,0.015355246748547530730166776891110202996,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 00:30:00.0,2014-04-01 01:00:00.0,0.007103052694907081854314156998952967114746,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 00:30:00.0,2014-04-01 01:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 00:30:00.0,2014-04-01 01:00:00.0,0.0170020260216805531305883647519294754602,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 00:30:00.0,2014-04-01 01:00:00.0,19.48156041813895456016325624659657478332,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 01:00:00.0,2014-04-01 01:30:00.0,0.0105393366378076554917830875979234406258,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 01:00:00.0,2014-04-01 01:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 01:00:00.0,2014-04-01 01:30:00.0,18.10375874965138009997644985560327768325,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 01:00:00.0,2014-04-01 01:30:00.0,0.0229629069866065481375638768213320872746,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 01:30:00.0,2014-04-01 02:00:00.0,0.0103882486502545785811424394751156796701,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 01:30:00.0,2014-04-01 02:00:00.0,16.57613240067119519949301320593804121017,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 01:30:00.0,2014-04-01 02:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 01:30:00.0,2014-04-01 02:00:00.0,0.0226743965684252334058523814519503503106,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 02:00:00.0,2014-04-01 02:30:00.0,0.0189538320846452008894278407069577951915,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 02:00:00.0,2014-04-01 02:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 02:00:00.0,2014-04-01 02:30:00.0,0.008288149336985477580452830181911849649623,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 02:00:00.0,2014-04-01 02:30:00.0,15.44425533182786125507846008986234664916,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 02:30:00.0,2014-04-01 03:00:00.0,0.006291037869830404943849444521219993475824,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 02:30:00.0,2014-04-01 03:00:00.0,0.0156292784439490718695342508226531208492,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 02:30:00.0,2014-04-01 03:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 02:30:00.0,2014-04-01 03:00:00.0,14.70595410491531396246500662527978420257,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 03:00:00.0,2014-04-01 03:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 03:00:00.0,2014-04-01 03:30:00.0,0.0137419884985172068014858126616672961972,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 03:00:00.0,2014-04-01 03:30:00.0,14.54799982533946511864542117109522223472,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 03:00:00.0,2014-04-01 03:30:00.0,0.005053111876654630719996053045406370074488,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 03:30:00.0,2014-04-01 04:00:00.0,13.37576443873464171474552131257951259613,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 03:30:00.0,2014-04-01 04:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 03:30:00.0,2014-04-01 04:00:00.0,0.0213109689823794828944514279100985731929,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 03:30:00.0,2014-04-01 04:00:00.0,0.009644319042914913098218931963856448419392,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 04:00:00.0,2014-04-01 04:30:00.0,12.12772022623102152749652304919436573982,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 04:00:00.0,2014-04-01 04:30:00.0,0.006857120477766402363850595236272056354209,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 04:00:00.0,2014-04-01 04:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 04:00:00.0,2014-04-01 04:30:00.0,0.0165154467158714797492269354961536009795,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 04:30:00.0,2014-04-01 05:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 04:30:00.0,2014-04-01 05:00:00.0,0.0105318514954117446735804008994819014333,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 04:30:00.0,2014-04-01 05:00:00.0,12.05305193996530199740391253726556897163,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 04:30:00.0,2014-04-01 05:00:00.0,0.0228913098134850105658255614571316982619,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 05:00:00.0,2014-04-01 05:30:00.0,0.0203744872957901425325477617889191606082,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 05:00:00.0,2014-04-01 05:30:00.0,11.35454011365583149029134801821783185005,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 05:00:00.0,2014-04-01 05:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 05:00:00.0,2014-04-01 05:30:00.0,0.009126162677943500112220931441697757691144,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 05:30:00.0,2014-04-01 06:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 05:30:00.0,2014-04-01 06:00:00.0,0.0294009966172515194160475004991894820705,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 05:30:00.0,2014-04-01 06:00:00.0,11.46206261423484029648989235283806920051,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 05:30:00.0,2014-04-01 06:00:00.0,0.0140518176697405454411704539552374626509,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 06:00:00.0,2014-04-01 06:30:00.0,0.0109501647358258447778611710532459255773,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 06:00:00.0,2014-04-01 06:30:00.0,0.0236451902889452184042262672392098465934,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 06:00:00.0,2014-04-01 06:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 06:00:00.0,2014-04-01 06:30:00.0,11.28162909706724015279633022146299481391,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 06:30:00.0,2014-04-01 07:00:00.0,0.005916927308152421759179784288562586880289,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 06:30:00.0,2014-04-01 07:00:00.0,11.43192152142262152381135820178315043449,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 06:30:00.0,2014-04-01 07:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 06:30:00.0,2014-04-01 07:00:00.0,0.0149943923231267827594903607746346096973,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 07:00:00.0,2014-04-01 07:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 07:00:00.0,2014-04-01 07:30:00.0,0.0194401783282869763946898444828548235818,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 07:00:00.0,2014-04-01 07:30:00.0,10.06776760712641305417491821572184562683,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 07:00:00.0,2014-04-01 07:30:00.0,0.008600424155780533180815083937886811327189,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 07:30:00.0,2014-04-01 08:00:00.0,0.005359410776961621124259149695490123121999,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 07:30:00.0,2014-04-01 08:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 07:30:00.0,2014-04-01 08:00:00.0,0.0141279464137306163401541780899606237653,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 07:30:00.0,2014-04-01 08:00:00.0,9.87848928389063729582630912773311138153,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 08:00:00.0,2014-04-01 08:30:00.0,0.003167022284220998105258582100418607296887,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 08:00:00.0,2014-04-01 08:30:00.0,9.53176901289454470145301456796005368232,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 08:00:00.0,2014-04-01 08:30:00.0,0.0112108936487772311435540117940945492591,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 08:00:00.0,2014-04-01 08:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 08:30:00.0,2014-04-01 09:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 08:30:00.0,2014-04-01 09:00:00.0,0.005235894835125018235977290004257156397216,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 08:30:00.0,2014-04-01 09:00:00.0,8.9519187779064353094327088911086320877,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 08:30:00.0,2014-04-01 09:00:00.0,0.013925645312781488593945056209122412838,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 09:00:00.0,2014-04-01 09:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 09:00:00.0,2014-04-01 09:30:00.0,0.009985671691718944059656948297742928843945,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 09:00:00.0,2014-04-01 09:30:00.0,0.001875812353928000327657477086518156284,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 09:00:00.0,2014-04-01 09:30:00.0,8.68654940521428642341561499051749706268,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 09:30:00.0,2014-04-01 10:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 09:30:00.0,2014-04-01 10:00:00.0,0.004927638543127527137599486195540521293878,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 09:30:00.0,2014-04-01 10:00:00.0,8.35913332330264502445515972794964909553,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 09:30:00.0,2014-04-01 10:00:00.0,0.0134671771670960803424232921088332659564,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 10:00:00.0,2014-04-01 10:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 10:00:00.0,2014-04-01 10:30:00.0,7.99299023860303581301423037075437605381,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 10:00:00.0,2014-04-01 10:30:00.0,0.0100951132764942105163319396865517774131,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 10:00:00.0,2014-04-01 10:30:00.0,0.002036839749214382731812289506478919065557,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 10:30:00.0,2014-04-01 11:00:00.0,0.009942115757765795924782992187829222530126,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 10:30:00.0,2014-04-01 11:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 10:30:00.0,2014-04-01 11:00:00.0,0.001840041785224369409387779050746303255436,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 10:30:00.0,2014-04-01 11:00:00.0,7.92969191456689070918173456448130309581,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 11:00:00.0,2014-04-01 11:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 11:00:00.0,2014-04-01 11:30:00.0,0.0101524701375817604648288394741939555387,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 11:00:00.0,2014-04-01 11:30:00.0,7.6688507523666427090347497141920030117,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 11:00:00.0,2014-04-01 11:30:00.0,0.00211903161466487060388130814203577756416,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 11:30:00.0,2014-04-01 12:00:00.0,0.0152026919750750666437966174271423369646,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 11:30:00.0,2014-04-01 12:00:00.0,0.006079793434155625515835641436979130958206,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 11:30:00.0,2014-04-01 12:00:00.0,7.79731849476058958003932275460101664066,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 11:30:00.0,2014-04-01 12:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 12:00:00.0,2014-04-01 12:30:00.0,0.0315244782021656469450654469710570992901,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 12:00:00.0,2014-04-01 12:30:00.0,9.27169009541570865451376448618248105049,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 12:00:00.0,2014-04-01 12:30:00.0,0.0151802218857411096164522490425952128134,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 12:00:00.0,2014-04-01 12:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 12:30:00.0,2014-04-01 13:00:00.0,0.0172397903968399789087495577177833183668,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 12:30:00.0,2014-04-01 13:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 12:30:00.0,2014-04-01 13:00:00.0,0.0354653970532287782235769668659486342221,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 12:30:00.0,2014-04-01 13:00:00.0,12.54189594039746502573962061433121562004,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 13:00:00.0,2014-04-01 13:30:00.0,0.0157265420408160654097695640984966303221,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 13:00:00.0,2014-04-01 13:30:00.0,15.09759930554554685500079358462244272232,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 13:00:00.0,2014-04-01 13:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 13:00:00.0,2014-04-01 13:30:00.0,0.032593279924991572227277458750904770568,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 13:30:00.0,2014-04-01 14:00:00.0,16.98194207105154518444578570779412984848,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 13:30:00.0,2014-04-01 14:00:00.0,0.0265000636914653302234068377174480701796,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 13:30:00.0,2014-04-01 14:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 13:30:00.0,2014-04-01 14:00:00.0,0.01247627469039442986431520665746575105,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 14:00:00.0,2014-04-01 14:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 14:00:00.0,2014-04-01 14:30:00.0,0.0247823113880351261761880721223860746249,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 14:00:00.0,2014-04-01 14:30:00.0,18.80637877873899910241561883594840764999,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 14:00:00.0,2014-04-01 14:30:00.0,0.0115349580499066843575217689021883415989,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 14:30:00.0,2014-04-01 15:00:00.0,0.0267988741436193424194645018587834783829,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 14:30:00.0,2014-04-01 15:00:00.0,20.23885331279986843355800374411046504974,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 14:30:00.0,2014-04-01 15:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 14:30:00.0,2014-04-01 15:00:00.0,0.0126231029813561514835162924441647191997,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 15:00:00.0,2014-04-01 15:30:00.0,21.92484095911612129725654085632413625717,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 15:00:00.0,2014-04-01 15:30:00.0,0.0101643732700771576710208066174345731269,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 15:00:00.0,2014-04-01 15:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 15:00:00.0,2014-04-01 15:30:00.0,0.0223238600938273704099579219928273232653,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 15:30:00.0,2014-04-01 16:00:00.0,0.0158779776674305046768598259632199187763,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 15:30:00.0,2014-04-01 16:00:00.0,22.84269030408371747853379929438233375549,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 15:30:00.0,2014-04-01 16:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 15:30:00.0,2014-04-01 16:00:00.0,0.006377279539290077459146033334036474116146,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 16:00:00.0,2014-04-01 16:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 16:00:00.0,2014-04-01 16:30:00.0,0.0270864553712142838715060122467548353597,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 16:00:00.0,2014-04-01 16:30:00.0,0.0127611596957407386759841827483796805609,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 16:00:00.0,2014-04-01 16:30:00.0,23.62089951164769985325619927607476711273,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 16:30:00.0,2014-04-01 17:00:00.0,0.0246248367503253268173679657593311276286,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 16:30:00.0,2014-04-01 17:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 16:30:00.0,2014-04-01 17:00:00.0,0.011421630293100273542683531502461846685,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 16:30:00.0,2014-04-01 17:00:00.0,24.1731628439343992909016378689557313919,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 17:00:00.0,2014-04-01 17:30:00.0,0.009991894210267788720147841274865641025826,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 17:00:00.0,2014-04-01 17:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 17:00:00.0,2014-04-01 17:30:00.0,0.0220494026403005409509017198388391989283,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 17:00:00.0,2014-04-01 17:30:00.0,24.85972698223975285714004712644964456558,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 17:30:00.0,2014-04-01 18:00:00.0,0.0255874871670546955026992463899659924209,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 17:30:00.0,2014-04-01 18:00:00.0,25.44927193444817703493754379451274871826,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 17:30:00.0,2014-04-01 18:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 17:30:00.0,2014-04-01 18:00:00.0,0.0119398123514762779379116963696105813141,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 18:00:00.0,2014-04-01 18:30:00.0,0.0202796649849262891618373316759971203282,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 18:00:00.0,2014-04-01 18:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 18:00:00.0,2014-04-01 18:30:00.0,0.008982736930586465370907056637861387571319,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 18:00:00.0,2014-04-01 18:30:00.0,26.11830056057810267589047725778073072433,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 18:30:00.0,2014-04-01 19:00:00.0,0.0227970929921279402696754345925000961869,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 18:30:00.0,2014-04-01 19:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 18:30:00.0,2014-04-01 19:00:00.0,0.0104003907291030182197255626874721201602,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 18:30:00.0,2014-04-01 19:00:00.0,26.34773743647266641687565424945205450057,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 19:00:00.0,2014-04-01 19:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 19:00:00.0,2014-04-01 19:30:00.0,26.27686971676728688862567651085555553436,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 19:00:00.0,2014-04-01 19:30:00.0,0.0177032450943126751230494164701667614281,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 19:00:00.0,2014-04-01 19:30:00.0,0.007471886122392147264181794241721945581957,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 19:30:00.0,2014-04-01 20:00:00.0,26.9973113246706333256952348165214061737,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 19:30:00.0,2014-04-01 20:00:00.0,0.009210561187033049559969022368477453710511,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 19:30:00.0,2014-04-01 20:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 19:30:00.0,2014-04-01 20:00:00.0,0.0206836376892262120696930338681340799666,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 20:00:00.0,2014-04-01 20:30:00.0,0.007635836958269240880292638706805519177578,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 20:00:00.0,2014-04-01 20:30:00.0,0.0179884381723735206626280103137105470523,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 20:00:00.0,2014-04-01 20:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 20:00:00.0,2014-04-01 20:30:00.0,27.17857466949317668536423298064619302749,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 20:30:00.0,2014-04-01 21:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 20:30:00.0,2014-04-01 21:00:00.0,0.0154605179887102508334839612302857858594,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 20:30:00.0,2014-04-01 21:00:00.0,0.006069743026322743303935247638492000987753,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 20:30:00.0,2014-04-01 21:00:00.0,27.14990088560044512178137665614485740661,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 21:00:00.0,2014-04-01 21:30:00.0,0.0145660935104950772095433464414782065432,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 21:00:00.0,2014-04-01 21:30:00.0,0.005482571189507918357763927019732363987714,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 21:00:00.0,2014-04-01 21:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 21:00:00.0,2014-04-01 21:30:00.0,27.03851664815356414806046814192086458206,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 21:30:00.0,2014-04-01 22:00:00.0,27.01028947794320345110463676974177360534,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 21:30:00.0,2014-04-01 22:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 21:30:00.0,2014-04-01 22:00:00.0,0.003218203236150807451665389891104496200568,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 21:30:00.0,2014-04-01 22:00:00.0,0.011601217959596421894219453463392710546,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 22:00:00.0,2014-04-01 22:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 22:00:00.0,2014-04-01 22:30:00.0,0.0108965278101487983430928352390765212476,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 22:00:00.0,2014-04-01 22:30:00.0,0.002524360489682275863337901355976100603584,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 22:00:00.0,2014-04-01 22:30:00.0,26.83267961387541689077806950081139802932,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 22:30:00.0,2014-04-01 23:00:00.0,26.5304961996871604412717715604230761528,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 22:30:00.0,2014-04-01 23:00:00.0,0.0110777658791020860995502061996376141905,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 22:30:00.0,2014-04-01 23:00:00.0,0.002727298443240027975981165653251991898287,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 22:30:00.0,2014-04-01 23:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 23:00:00.0,2014-04-01 23:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 23:00:00.0,2014-04-01 23:30:00.0,0.015108906896286503421245051015375793213,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 23:00:00.0,2014-04-01 23:30:00.0,25.30071414576220689696128829382359981536,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 23:00:00.0,2014-04-01 23:30:00.0,0.0314931344356121842298357194067648379132,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 23:30:00.0,2014-04-02 00:00:00.0,0.0187417509183239842929236118607150274328,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type
+2014-04-01 23:30:00.0,2014-04-02 00:00:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-01 23:30:00.0,2014-04-02 00:00:00.0,0.0384049295572261167874827947343874257057,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-01 23:30:00.0,2014-04-02 00:00:00.0,22.824631664894813098953818553127348423,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 00:00:00.0,2014-04-02 00:30:00.0,20.99164649412859517951801535673439502716,,degree Celsius,Version 1.0,Temperature Mean (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 00:00:00.0,2014-04-02 00:30:00.0,0.0213339469665571566936446146200978546403,,degree Celsius,Version 1.0,Temperature Expanded Uncertainty (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-02 00:00:00.0,2014-04-02 00:30:00.0,1800,,none,Version 1.0,Number of points used in data product mean value,Level-1 FIU measurement stream readout type
+2014-04-02 00:00:00.0,2014-04-02 00:30:00.0,0.009613932645342481222994202028075960697606,,degree Celsius,Version 1.0,Temperature Standard Error  (NEON.DOC.000652),Level-1 FIU measurement stream readout type

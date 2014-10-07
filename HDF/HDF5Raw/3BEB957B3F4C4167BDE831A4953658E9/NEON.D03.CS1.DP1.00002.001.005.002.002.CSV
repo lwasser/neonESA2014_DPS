@@ -1,0 +1,516 @@
+# Data from NEON Inc.
+# These data are provided under the terms of the NEON data policy included in this data download.
+# Data Product ID: NEON.D03.CS1.DP1.00002.001.005.002.002
+# Data Product Name: 30 minutes Quality Summary temperature tower level 2
+# Site: Ordway-Swisher Biological Station Site, CORE (FL)
+# Geographic coordinates (lat/long): 29.68927/-81.99343
+# Domain: Domain 03
+# Query Citation Code: 3BEB957B3F4C4167BDE831A4953658E9
+# Date-Time of Query Submission: 2014-07-10 16:32 (UTC)
+# Start Date-Time for Data: 2014-04-03 00:00 (UTC)
+# End Date-Time for Data: 2014-04-04 00:00 (UTC)
+# 
+### Sensor Metadata Below
+### Sensor information: Thermometrics Climate RTD 100  Omega  Probe and Met One 076B aspirated radiation shield
+### Units: deg C
+### Sampling Rate (Hz): 1
+### Assembly repeatability (precision) in deg C: 0.0025
+### Assembly refers to the sensor(s) and relevant components (e.g. DAS); here repeatability represents the maximum expected assembly noise given at 95% confidence.
+### Boom Level: 2
+### Height Above Ground Level (m): 1.93
+### Lat/Lon: 29.68923565/-81.99340698
+### Threshold For Range test (Hard): min:  -89.2 (deg C) max:  56.7 (deg C)
+### Threshold for Range test (soft): min: -27.2 (deg C) max: 44.4 (deg C)
+### Threshold For Step test: 0.5 (deg C)
+#
+Start Date,End Date,Data 1,Data 2,Units,Readout Version,Value Name,Measurement Readout Type Name
+2014-04-03 00:00:00.0,2014-04-03 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 00:00:00.0,2014-04-03 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 00:00:00.0,2014-04-03 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 00:00:00.0,2014-04-03 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 00:00:00.0,2014-04-03 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 00:00:00.0,2014-04-03 00:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 00:00:00.0,2014-04-03 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 00:00:00.0,2014-04-03 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 00:00:00.0,2014-04-03 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 00:00:00.0,2014-04-03 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 00:30:00.0,2014-04-03 01:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 00:30:00.0,2014-04-03 01:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 00:30:00.0,2014-04-03 01:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 00:30:00.0,2014-04-03 01:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 00:30:00.0,2014-04-03 01:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 00:30:00.0,2014-04-03 01:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 00:30:00.0,2014-04-03 01:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 00:30:00.0,2014-04-03 01:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 00:30:00.0,2014-04-03 01:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 00:30:00.0,2014-04-03 01:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 01:00:00.0,2014-04-03 01:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 01:00:00.0,2014-04-03 01:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 01:00:00.0,2014-04-03 01:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 01:00:00.0,2014-04-03 01:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 01:00:00.0,2014-04-03 01:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 01:00:00.0,2014-04-03 01:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 01:00:00.0,2014-04-03 01:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 01:00:00.0,2014-04-03 01:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 01:00:00.0,2014-04-03 01:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 01:00:00.0,2014-04-03 01:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 01:30:00.0,2014-04-03 02:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 01:30:00.0,2014-04-03 02:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 01:30:00.0,2014-04-03 02:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 01:30:00.0,2014-04-03 02:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 01:30:00.0,2014-04-03 02:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 01:30:00.0,2014-04-03 02:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 01:30:00.0,2014-04-03 02:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 01:30:00.0,2014-04-03 02:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 01:30:00.0,2014-04-03 02:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 01:30:00.0,2014-04-03 02:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 02:00:00.0,2014-04-03 02:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 02:00:00.0,2014-04-03 02:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 02:00:00.0,2014-04-03 02:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 02:00:00.0,2014-04-03 02:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 02:00:00.0,2014-04-03 02:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 02:00:00.0,2014-04-03 02:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 02:00:00.0,2014-04-03 02:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 02:00:00.0,2014-04-03 02:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 02:00:00.0,2014-04-03 02:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 02:00:00.0,2014-04-03 02:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 02:30:00.0,2014-04-03 03:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 02:30:00.0,2014-04-03 03:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 02:30:00.0,2014-04-03 03:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 02:30:00.0,2014-04-03 03:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 02:30:00.0,2014-04-03 03:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 02:30:00.0,2014-04-03 03:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 02:30:00.0,2014-04-03 03:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 02:30:00.0,2014-04-03 03:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 02:30:00.0,2014-04-03 03:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 02:30:00.0,2014-04-03 03:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 03:00:00.0,2014-04-03 03:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 03:00:00.0,2014-04-03 03:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 03:00:00.0,2014-04-03 03:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 03:00:00.0,2014-04-03 03:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 03:00:00.0,2014-04-03 03:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 03:00:00.0,2014-04-03 03:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 03:00:00.0,2014-04-03 03:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 03:00:00.0,2014-04-03 03:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 03:00:00.0,2014-04-03 03:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 03:00:00.0,2014-04-03 03:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 03:30:00.0,2014-04-03 04:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 03:30:00.0,2014-04-03 04:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 03:30:00.0,2014-04-03 04:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 03:30:00.0,2014-04-03 04:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 03:30:00.0,2014-04-03 04:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 03:30:00.0,2014-04-03 04:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 03:30:00.0,2014-04-03 04:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 03:30:00.0,2014-04-03 04:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 03:30:00.0,2014-04-03 04:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 03:30:00.0,2014-04-03 04:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 04:00:00.0,2014-04-03 04:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 04:00:00.0,2014-04-03 04:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 04:00:00.0,2014-04-03 04:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 04:00:00.0,2014-04-03 04:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 04:00:00.0,2014-04-03 04:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 04:00:00.0,2014-04-03 04:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 04:00:00.0,2014-04-03 04:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 04:00:00.0,2014-04-03 04:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 04:00:00.0,2014-04-03 04:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 04:00:00.0,2014-04-03 04:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 04:30:00.0,2014-04-03 05:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 04:30:00.0,2014-04-03 05:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 04:30:00.0,2014-04-03 05:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 04:30:00.0,2014-04-03 05:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 04:30:00.0,2014-04-03 05:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 04:30:00.0,2014-04-03 05:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 04:30:00.0,2014-04-03 05:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 04:30:00.0,2014-04-03 05:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 04:30:00.0,2014-04-03 05:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 04:30:00.0,2014-04-03 05:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 05:00:00.0,2014-04-03 05:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 05:00:00.0,2014-04-03 05:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 05:00:00.0,2014-04-03 05:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 05:00:00.0,2014-04-03 05:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 05:00:00.0,2014-04-03 05:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 05:00:00.0,2014-04-03 05:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 05:00:00.0,2014-04-03 05:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 05:00:00.0,2014-04-03 05:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 05:00:00.0,2014-04-03 05:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 05:00:00.0,2014-04-03 05:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 05:30:00.0,2014-04-03 06:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 05:30:00.0,2014-04-03 06:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 05:30:00.0,2014-04-03 06:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 05:30:00.0,2014-04-03 06:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 05:30:00.0,2014-04-03 06:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 05:30:00.0,2014-04-03 06:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 05:30:00.0,2014-04-03 06:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 05:30:00.0,2014-04-03 06:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 05:30:00.0,2014-04-03 06:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 05:30:00.0,2014-04-03 06:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:00:00.0,2014-04-03 06:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:00:00.0,2014-04-03 06:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:00:00.0,2014-04-03 06:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:00:00.0,2014-04-03 06:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:00:00.0,2014-04-03 06:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:00:00.0,2014-04-03 06:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:00:00.0,2014-04-03 06:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 06:00:00.0,2014-04-03 06:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:00:00.0,2014-04-03 06:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:00:00.0,2014-04-03 06:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 06:30:00.0,2014-04-03 07:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:30:00.0,2014-04-03 07:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:30:00.0,2014-04-03 07:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:30:00.0,2014-04-03 07:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:30:00.0,2014-04-03 07:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:30:00.0,2014-04-03 07:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:30:00.0,2014-04-03 07:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 06:30:00.0,2014-04-03 07:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:30:00.0,2014-04-03 07:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 06:30:00.0,2014-04-03 07:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 07:00:00.0,2014-04-03 07:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 07:00:00.0,2014-04-03 07:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 07:00:00.0,2014-04-03 07:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 07:00:00.0,2014-04-03 07:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 07:00:00.0,2014-04-03 07:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 07:00:00.0,2014-04-03 07:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 07:00:00.0,2014-04-03 07:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 07:00:00.0,2014-04-03 07:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 07:00:00.0,2014-04-03 07:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 07:00:00.0,2014-04-03 07:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 07:30:00.0,2014-04-03 08:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 07:30:00.0,2014-04-03 08:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 07:30:00.0,2014-04-03 08:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 07:30:00.0,2014-04-03 08:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 07:30:00.0,2014-04-03 08:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 07:30:00.0,2014-04-03 08:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 07:30:00.0,2014-04-03 08:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 07:30:00.0,2014-04-03 08:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 07:30:00.0,2014-04-03 08:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 07:30:00.0,2014-04-03 08:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:00:00.0,2014-04-03 08:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:00:00.0,2014-04-03 08:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:00:00.0,2014-04-03 08:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:00:00.0,2014-04-03 08:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:00:00.0,2014-04-03 08:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:00:00.0,2014-04-03 08:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:00:00.0,2014-04-03 08:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 08:00:00.0,2014-04-03 08:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 08:00:00.0,2014-04-03 08:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:00:00.0,2014-04-03 08:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:30:00.0,2014-04-03 09:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 08:30:00.0,2014-04-03 09:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:30:00.0,2014-04-03 09:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:30:00.0,2014-04-03 09:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:30:00.0,2014-04-03 09:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:30:00.0,2014-04-03 09:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:30:00.0,2014-04-03 09:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:30:00.0,2014-04-03 09:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:30:00.0,2014-04-03 09:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 08:30:00.0,2014-04-03 09:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 09:00:00.0,2014-04-03 09:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 09:00:00.0,2014-04-03 09:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 09:00:00.0,2014-04-03 09:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 09:00:00.0,2014-04-03 09:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 09:00:00.0,2014-04-03 09:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 09:00:00.0,2014-04-03 09:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 09:00:00.0,2014-04-03 09:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 09:00:00.0,2014-04-03 09:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 09:00:00.0,2014-04-03 09:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 09:00:00.0,2014-04-03 09:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 09:30:00.0,2014-04-03 10:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 09:30:00.0,2014-04-03 10:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 09:30:00.0,2014-04-03 10:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 09:30:00.0,2014-04-03 10:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 09:30:00.0,2014-04-03 10:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 09:30:00.0,2014-04-03 10:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 09:30:00.0,2014-04-03 10:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 09:30:00.0,2014-04-03 10:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 09:30:00.0,2014-04-03 10:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 09:30:00.0,2014-04-03 10:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:00:00.0,2014-04-03 10:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:00:00.0,2014-04-03 10:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 10:00:00.0,2014-04-03 10:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:00:00.0,2014-04-03 10:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:00:00.0,2014-04-03 10:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:00:00.0,2014-04-03 10:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 10:00:00.0,2014-04-03 10:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:00:00.0,2014-04-03 10:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:00:00.0,2014-04-03 10:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:00:00.0,2014-04-03 10:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:30:00.0,2014-04-03 11:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 10:30:00.0,2014-04-03 11:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:30:00.0,2014-04-03 11:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:30:00.0,2014-04-03 11:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:30:00.0,2014-04-03 11:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:30:00.0,2014-04-03 11:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:30:00.0,2014-04-03 11:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:30:00.0,2014-04-03 11:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:30:00.0,2014-04-03 11:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 10:30:00.0,2014-04-03 11:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 11:00:00.0,2014-04-03 11:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 11:00:00.0,2014-04-03 11:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 11:00:00.0,2014-04-03 11:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 11:00:00.0,2014-04-03 11:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 11:00:00.0,2014-04-03 11:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 11:00:00.0,2014-04-03 11:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 11:00:00.0,2014-04-03 11:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 11:00:00.0,2014-04-03 11:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 11:00:00.0,2014-04-03 11:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 11:00:00.0,2014-04-03 11:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 11:30:00.0,2014-04-03 12:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 11:30:00.0,2014-04-03 12:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 11:30:00.0,2014-04-03 12:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 11:30:00.0,2014-04-03 12:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 11:30:00.0,2014-04-03 12:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 11:30:00.0,2014-04-03 12:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 11:30:00.0,2014-04-03 12:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 11:30:00.0,2014-04-03 12:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 11:30:00.0,2014-04-03 12:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 11:30:00.0,2014-04-03 12:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 12:00:00.0,2014-04-03 12:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 12:00:00.0,2014-04-03 12:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 12:00:00.0,2014-04-03 12:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 12:00:00.0,2014-04-03 12:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 12:00:00.0,2014-04-03 12:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 12:00:00.0,2014-04-03 12:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 12:00:00.0,2014-04-03 12:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 12:00:00.0,2014-04-03 12:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 12:00:00.0,2014-04-03 12:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 12:00:00.0,2014-04-03 12:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 12:30:00.0,2014-04-03 13:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 12:30:00.0,2014-04-03 13:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 12:30:00.0,2014-04-03 13:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 12:30:00.0,2014-04-03 13:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 12:30:00.0,2014-04-03 13:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 12:30:00.0,2014-04-03 13:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 12:30:00.0,2014-04-03 13:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 12:30:00.0,2014-04-03 13:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 12:30:00.0,2014-04-03 13:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 12:30:00.0,2014-04-03 13:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 13:00:00.0,2014-04-03 13:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 13:00:00.0,2014-04-03 13:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 13:00:00.0,2014-04-03 13:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 13:00:00.0,2014-04-03 13:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 13:00:00.0,2014-04-03 13:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 13:00:00.0,2014-04-03 13:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 13:00:00.0,2014-04-03 13:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 13:00:00.0,2014-04-03 13:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 13:00:00.0,2014-04-03 13:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 13:00:00.0,2014-04-03 13:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 13:30:00.0,2014-04-03 14:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 13:30:00.0,2014-04-03 14:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 13:30:00.0,2014-04-03 14:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 13:30:00.0,2014-04-03 14:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 13:30:00.0,2014-04-03 14:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 13:30:00.0,2014-04-03 14:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 13:30:00.0,2014-04-03 14:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 13:30:00.0,2014-04-03 14:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 13:30:00.0,2014-04-03 14:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 13:30:00.0,2014-04-03 14:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:00:00.0,2014-04-03 14:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:00:00.0,2014-04-03 14:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:00:00.0,2014-04-03 14:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 14:00:00.0,2014-04-03 14:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:00:00.0,2014-04-03 14:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 14:00:00.0,2014-04-03 14:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:00:00.0,2014-04-03 14:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:00:00.0,2014-04-03 14:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:00:00.0,2014-04-03 14:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:00:00.0,2014-04-03 14:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:30:00.0,2014-04-03 15:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:30:00.0,2014-04-03 15:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:30:00.0,2014-04-03 15:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:30:00.0,2014-04-03 15:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:30:00.0,2014-04-03 15:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:30:00.0,2014-04-03 15:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:30:00.0,2014-04-03 15:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:30:00.0,2014-04-03 15:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 14:30:00.0,2014-04-03 15:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 14:30:00.0,2014-04-03 15:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 15:00:00.0,2014-04-03 15:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 15:00:00.0,2014-04-03 15:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 15:00:00.0,2014-04-03 15:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 15:00:00.0,2014-04-03 15:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 15:00:00.0,2014-04-03 15:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 15:00:00.0,2014-04-03 15:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 15:00:00.0,2014-04-03 15:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 15:00:00.0,2014-04-03 15:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 15:00:00.0,2014-04-03 15:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 15:00:00.0,2014-04-03 15:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 15:30:00.0,2014-04-03 16:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 15:30:00.0,2014-04-03 16:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 15:30:00.0,2014-04-03 16:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 15:30:00.0,2014-04-03 16:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 15:30:00.0,2014-04-03 16:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 15:30:00.0,2014-04-03 16:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 15:30:00.0,2014-04-03 16:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 15:30:00.0,2014-04-03 16:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 15:30:00.0,2014-04-03 16:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 15:30:00.0,2014-04-03 16:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 16:00:00.0,2014-04-03 16:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 16:00:00.0,2014-04-03 16:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 16:00:00.0,2014-04-03 16:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 16:00:00.0,2014-04-03 16:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 16:00:00.0,2014-04-03 16:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 16:00:00.0,2014-04-03 16:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 16:00:00.0,2014-04-03 16:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 16:00:00.0,2014-04-03 16:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 16:00:00.0,2014-04-03 16:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 16:00:00.0,2014-04-03 16:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 16:30:00.0,2014-04-03 17:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 16:30:00.0,2014-04-03 17:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 16:30:00.0,2014-04-03 17:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 16:30:00.0,2014-04-03 17:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 16:30:00.0,2014-04-03 17:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 16:30:00.0,2014-04-03 17:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 16:30:00.0,2014-04-03 17:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 16:30:00.0,2014-04-03 17:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 16:30:00.0,2014-04-03 17:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 16:30:00.0,2014-04-03 17:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 17:00:00.0,2014-04-03 17:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 17:00:00.0,2014-04-03 17:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 17:00:00.0,2014-04-03 17:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 17:00:00.0,2014-04-03 17:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 17:00:00.0,2014-04-03 17:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 17:00:00.0,2014-04-03 17:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 17:00:00.0,2014-04-03 17:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 17:00:00.0,2014-04-03 17:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 17:00:00.0,2014-04-03 17:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 17:00:00.0,2014-04-03 17:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 17:30:00.0,2014-04-03 18:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 17:30:00.0,2014-04-03 18:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 17:30:00.0,2014-04-03 18:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 17:30:00.0,2014-04-03 18:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 17:30:00.0,2014-04-03 18:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 17:30:00.0,2014-04-03 18:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 17:30:00.0,2014-04-03 18:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 17:30:00.0,2014-04-03 18:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 17:30:00.0,2014-04-03 18:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 17:30:00.0,2014-04-03 18:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 18:00:00.0,2014-04-03 18:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 18:00:00.0,2014-04-03 18:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 18:00:00.0,2014-04-03 18:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 18:00:00.0,2014-04-03 18:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 18:00:00.0,2014-04-03 18:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 18:00:00.0,2014-04-03 18:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 18:00:00.0,2014-04-03 18:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 18:00:00.0,2014-04-03 18:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 18:00:00.0,2014-04-03 18:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 18:00:00.0,2014-04-03 18:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 18:30:00.0,2014-04-03 19:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 18:30:00.0,2014-04-03 19:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 18:30:00.0,2014-04-03 19:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 18:30:00.0,2014-04-03 19:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 18:30:00.0,2014-04-03 19:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 18:30:00.0,2014-04-03 19:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 18:30:00.0,2014-04-03 19:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 18:30:00.0,2014-04-03 19:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 18:30:00.0,2014-04-03 19:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 18:30:00.0,2014-04-03 19:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 19:00:00.0,2014-04-03 19:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 19:00:00.0,2014-04-03 19:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 19:00:00.0,2014-04-03 19:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 19:00:00.0,2014-04-03 19:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 19:00:00.0,2014-04-03 19:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 19:00:00.0,2014-04-03 19:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 19:00:00.0,2014-04-03 19:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 19:00:00.0,2014-04-03 19:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 19:00:00.0,2014-04-03 19:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 19:00:00.0,2014-04-03 19:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 19:30:00.0,2014-04-03 20:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 19:30:00.0,2014-04-03 20:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 19:30:00.0,2014-04-03 20:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 19:30:00.0,2014-04-03 20:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 19:30:00.0,2014-04-03 20:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 19:30:00.0,2014-04-03 20:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 19:30:00.0,2014-04-03 20:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 19:30:00.0,2014-04-03 20:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 19:30:00.0,2014-04-03 20:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 19:30:00.0,2014-04-03 20:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 20:00:00.0,2014-04-03 20:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 20:00:00.0,2014-04-03 20:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 20:00:00.0,2014-04-03 20:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 20:00:00.0,2014-04-03 20:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 20:00:00.0,2014-04-03 20:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 20:00:00.0,2014-04-03 20:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 20:00:00.0,2014-04-03 20:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 20:00:00.0,2014-04-03 20:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 20:00:00.0,2014-04-03 20:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 20:00:00.0,2014-04-03 20:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 20:30:00.0,2014-04-03 21:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 20:30:00.0,2014-04-03 21:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 20:30:00.0,2014-04-03 21:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 20:30:00.0,2014-04-03 21:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 20:30:00.0,2014-04-03 21:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 20:30:00.0,2014-04-03 21:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 20:30:00.0,2014-04-03 21:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 20:30:00.0,2014-04-03 21:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 20:30:00.0,2014-04-03 21:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 20:30:00.0,2014-04-03 21:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 21:00:00.0,2014-04-03 21:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 21:00:00.0,2014-04-03 21:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 21:00:00.0,2014-04-03 21:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 21:00:00.0,2014-04-03 21:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 21:00:00.0,2014-04-03 21:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 21:00:00.0,2014-04-03 21:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 21:00:00.0,2014-04-03 21:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 21:00:00.0,2014-04-03 21:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 21:00:00.0,2014-04-03 21:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 21:00:00.0,2014-04-03 21:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 21:30:00.0,2014-04-03 22:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 21:30:00.0,2014-04-03 22:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 21:30:00.0,2014-04-03 22:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 21:30:00.0,2014-04-03 22:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 21:30:00.0,2014-04-03 22:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 21:30:00.0,2014-04-03 22:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 21:30:00.0,2014-04-03 22:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 21:30:00.0,2014-04-03 22:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 21:30:00.0,2014-04-03 22:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 21:30:00.0,2014-04-03 22:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 22:00:00.0,2014-04-03 22:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 22:00:00.0,2014-04-03 22:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 22:00:00.0,2014-04-03 22:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 22:00:00.0,2014-04-03 22:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 22:00:00.0,2014-04-03 22:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 22:00:00.0,2014-04-03 22:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 22:00:00.0,2014-04-03 22:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 22:00:00.0,2014-04-03 22:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 22:00:00.0,2014-04-03 22:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 22:00:00.0,2014-04-03 22:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 22:30:00.0,2014-04-03 23:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 22:30:00.0,2014-04-03 23:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 22:30:00.0,2014-04-03 23:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 22:30:00.0,2014-04-03 23:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 22:30:00.0,2014-04-03 23:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 22:30:00.0,2014-04-03 23:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 22:30:00.0,2014-04-03 23:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 22:30:00.0,2014-04-03 23:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 22:30:00.0,2014-04-03 23:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 22:30:00.0,2014-04-03 23:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:00:00.0,2014-04-03 23:30:00.0,"Flag value: -1, percent: 0 --- Flag value: 0, percent: 99",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:00:00.0,2014-04-03 23:30:00.0,"Flag value: -1, percent: 0 --- Flag value: 0, percent: 99",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:00:00.0,2014-04-03 23:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:00:00.0,2014-04-03 23:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:00:00.0,2014-04-03 23:30:00.0,"Flag value: -1, percent: 0 --- Flag value: 0, percent: 99",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 23:00:00.0,2014-04-03 23:30:00.0,"Flag value: -1, percent: 0 --- Flag value: 0, percent: 99",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:00:00.0,2014-04-03 23:30:00.0,"Flag value: -1, percent: 0 --- Flag value: 0, percent: 99",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-03 23:00:00.0,2014-04-03 23:30:00.0,"Flag value: -1, percent: 0 --- Flag value: 0, percent: 99",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:00:00.0,2014-04-03 23:30:00.0,"Flag value: -1, percent: 0 --- Flag value: 0, percent: 99 --- Flag value: 1, percent: 0",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:00:00.0,2014-04-03 23:30:00.0,"Flag value: 0, percent: 99 --- Flag value: 1, percent: 0",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:30:00.0,2014-04-04 00:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:30:00.0,2014-04-04 00:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-03 23:30:00.0,2014-04-04 00:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:30:00.0,2014-04-04 00:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:30:00.0,2014-04-04 00:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:30:00.0,2014-04-04 00:00:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:30:00.0,2014-04-04 00:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:30:00.0,2014-04-04 00:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:30:00.0,2014-04-04 00:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-03 23:30:00.0,2014-04-04 00:00:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-04 00:00:00.0,2014-04-04 00:30:00.0,0,,none,Version 1.0,QMQF Final metric (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-04 00:00:00.0,2014-04-04 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Alpha Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-04 00:00:00.0,2014-04-04 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QM Temperature Heater State Flag Value (NEON.DOC.000646),Level-1 FIU measurement stream readout type
+2014-04-04 00:00:00.0,2014-04-04 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Beta Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-04 00:00:00.0,2014-04-04 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Gap Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-04 00:00:00.0,2014-04-04 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Soft Range Test Value (NEON.DOC.001113 revB),Level-1 FIU measurement stream readout type
+2014-04-04 00:00:00.0,2014-04-04 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Range Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-04 00:00:00.0,2014-04-04 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Null Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-04 00:00:00.0,2014-04-04 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Despiking Spurious Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type
+2014-04-04 00:00:00.0,2014-04-04 00:30:00.0,"Flag value: 0, percent: 100",,none,Version 1.0,QMQF Plausibility Step Test Value (NEON.DOC.001113),Level-1 FIU measurement stream readout type

@@ -1,0 +1,75 @@
+# Data from NEON Inc.
+# These data are provided under the terms of the NEON data policy included in this data download.
+# Data Product ID: NEON.D10.RS1.DP1.00002.001.002.001.002
+# Data Product Name: 30 minutes minimum temperature tower level 1
+# Site: Sterling Site, RELOCATABLE (CO)
+# Geographic coordinates (lat/long): 40.4619/-103.0293
+# Domain: Domain 10
+# Query Citation Code: 3BEB957B3F4C4167BDE831A4953658E9
+# Date-Time of Query Submission: 2014-07-10 16:32 (UTC)
+# Start Date-Time for Data: 2014-04-03 00:00 (UTC)
+# End Date-Time for Data: 2014-04-04 00:00 (UTC)
+# 
+### Sensor Metadata Below
+### Sensor information: Thermometrics Climate RTD 100  Omega  Probe and Met One 076B aspirated radiation shield
+### Units: deg C
+### Sampling Rate (Hz): 1
+### Assembly repeatability (precision) in deg C: 0.0025
+### Assembly refers to the sensor(s) and relevant components (e.g. DAS); here repeatability represents the maximum expected assembly noise given at 95% confidence.
+### Boom Level: 1
+### Height Above Ground Level (m): 0.127
+### Lat/Lon: 40.46187242/-103.0293536
+### Threshold For Range test (Hard): min:  -89.2 (deg C) max:  56.7 (deg C)
+### Threshold for Range test (soft): min: -54.4 (deg C) max: 46.1 (deg C)
+### Threshold For Step test: 0.5 (deg C)
+#
+Start Date,End Date,Data 1,Data 2,Units,Readout Version,Value Name,Measurement Readout Type Name
+2014-04-03 00:00:00.0,2014-04-03 00:30:00.0,6.77761303477087828639469080371782183647,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 00:30:00.0,2014-04-03 01:00:00.0,6.30067339618760868802382901776582002639,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 01:00:00.0,2014-04-03 01:30:00.0,5.60854913652352138342394027858972549438,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 01:30:00.0,2014-04-03 02:00:00.0,4.09904200381775929429295501904562115669,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 02:00:00.0,2014-04-03 02:30:00.0,3.08831936279023366864748822990804910659,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 02:30:00.0,2014-04-03 03:00:00.0,2.31622604385719732533743808744475245475,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 03:00:00.0,2014-04-03 03:30:00.0,1.61009128477727614381365128792822360992,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 03:30:00.0,2014-04-03 04:00:00.0,1.72570530442392033876330970088019967079,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 04:00:00.0,2014-04-03 04:30:00.0,1.11217446414510590102509013377130031585,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 04:30:00.0,2014-04-03 05:00:00.0,1.12093695256978875818276719655841588973,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 05:00:00.0,2014-04-03 05:30:00.0,1.11277683660962800615834566997364163398,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 05:30:00.0,2014-04-03 06:00:00.0,1.12380078292451202059964998625218868255,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 06:00:00.0,2014-04-03 06:30:00.0,0.8769055112121542094882897799834609031677,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 06:30:00.0,2014-04-03 07:00:00.0,0.6604214723688279775615228572860360145568,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 07:00:00.0,2014-04-03 07:30:00.0,0.2310997341566469742701883660629391670227,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 07:30:00.0,2014-04-03 08:00:00.0,0.1271412444225035187628236599266529083251,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 08:00:00.0,2014-04-03 08:30:00.0,0.0509268668019142722869219142012298107147,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 08:30:00.0,2014-04-03 09:00:00.0,0.0227982453148527497432951349765062332153,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 09:00:00.0,2014-04-03 09:30:00.0,0.0273732122363998797709427890367805957794,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 09:30:00.0,2014-04-03 10:00:00.0,-0.002645903699239227080397540703415870666503,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 10:00:00.0,2014-04-03 10:30:00.0,0.0224461287750070681568104191683232784271,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 10:30:00.0,2014-04-03 11:00:00.0,0.0876036484907043444536611787043511867523,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 11:00:00.0,2014-04-03 11:30:00.0,0.0355484619884709474035844323225319385528,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 11:30:00.0,2014-04-03 12:00:00.0,0.0142504995218999397366133052855730056762,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 12:00:00.0,2014-04-03 12:30:00.0,0.007807810480217725057627831120043992996215,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 12:30:00.0,2014-04-03 13:00:00.0,0.0982515770893925832751847337931394577026,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 13:00:00.0,2014-04-03 13:30:00.0,0.1168632093037409447333629941567778587341,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 13:30:00.0,2014-04-03 14:00:00.0,0.1537550764584771911813732003793120384216,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 14:00:00.0,2014-04-03 14:30:00.0,0.1191392758444713706467155134305357933044,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 14:30:00.0,2014-04-03 15:00:00.0,0.2101730392386560453132915426976978778839,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 15:00:00.0,2014-04-03 15:30:00.0,0.2375428663861001155055419076234102249145,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 15:30:00.0,2014-04-03 16:00:00.0,0.3251528716328682122593818348832428455352,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 16:00:00.0,2014-04-03 16:30:00.0,0.657734143306319296584661060478538274765,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 16:30:00.0,2014-04-03 17:00:00.0,1.07229306116794020908855600282549858093,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 17:00:00.0,2014-04-03 17:30:00.0,1.54525294034401561305003269808366894721,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 17:30:00.0,2014-04-03 18:00:00.0,2.3434425440564261577947036130353808403,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 18:00:00.0,2014-04-03 18:30:00.0,3.22134857505010430145375721622258424758,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 18:30:00.0,2014-04-03 19:00:00.0,3.8245382746576854771092257578857243061,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 19:00:00.0,2014-04-03 19:30:00.0,4.42167965241694460587495996151119470596,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 19:30:00.0,2014-04-03 20:00:00.0,4.30762534390147422413974709343165159225,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 20:00:00.0,2014-04-03 20:30:00.0,4.74538161928092705466042389161884784698,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 20:30:00.0,2014-04-03 21:00:00.0,5.05320506733263918874854425666853785514,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 21:00:00.0,2014-04-03 21:30:00.0,5.6999488616356330794587847776710987091,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 21:30:00.0,2014-04-03 22:00:00.0,5.95356783883335793916558031924068927764,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 22:00:00.0,2014-04-03 22:30:00.0,6.58562816620064950257074087858200073242,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 22:30:00.0,2014-04-03 23:00:00.0,6.84413333645325394627434434369206428527,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 23:00:00.0,2014-04-03 23:30:00.0,6.55874689178027914238100493093952536582,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-03 23:30:00.0,2014-04-04 00:00:00.0,6.47773879955235898364662716630846261978,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
+2014-04-04 00:00:00.0,2014-04-04 00:30:00.0,5.50707158283107034435488458257168531417,,degree Celsius,Version 1.0,Temperature Min (NEON.DOC.000646),Temperature Min measurement stream value type (NEON.DOC.000646)
