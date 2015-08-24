@@ -1,5 +1,7 @@
 neonESA2014
 ===========
+NOTE: this is the first DRAFT version of the ESA data workshop that we gave in AUgust of 2014. Materials have been 
+greatly improved. Please see: www.neondataskills.org for these materials and more.
 
 Repository holding NEON teaching materials.
 
